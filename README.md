@@ -1,5 +1,5 @@
-# production-salesforce
-The repo is a clone of the Gearset's Salesforce production instance as of 19/04/2021.
+# production-salesforce clone
+This repo is a clone of the Gearset's Salesforce production instance as of 19/04/2021.
 Please only run this against sandboxes setup against production salesforce listed below:
  - https://gearset--prodpip.my.salesforce.com/
  - https://gearset--uatpip.my.salesforce.com/
