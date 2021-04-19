@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingOwnerRules>
+        <fullName>Opportunity_Sharing_Rule</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Opportunity Sharing Rule</label>
+        <sharedTo>
+            <group>All_users</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>All_users</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingOwnerRules>
+        <fullName>Members_of_the_all_users_can_access_all_leads</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Members of the 'all users' can access all leads</label>
+        <sharedTo>
+            <group>All_users</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>All_users</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

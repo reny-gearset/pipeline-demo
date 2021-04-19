@@ -1,0 +1,6 @@
+node_modules
+dist
+*.csv
+*.json
+*.sqlite
+notes-export

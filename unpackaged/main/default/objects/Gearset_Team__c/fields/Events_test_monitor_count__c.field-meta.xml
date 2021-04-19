@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Events_test_monitor_count__c</fullName>
+    <externalId>false</externalId>
+    <label>Add test monitor event count</label>
+    <description>The number of times that a user on this team has added a test monitor. This number can be higher than the number of currently configured test monitors for the team if they've deleted jobs after creating them.</description>
+    <inlineHelpText>The number of times that a user on this team has added a test monitor. This number can be higher than the number of currently configured test monitors for the team if they've deleted jobs after creating them.</inlineHelpText>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

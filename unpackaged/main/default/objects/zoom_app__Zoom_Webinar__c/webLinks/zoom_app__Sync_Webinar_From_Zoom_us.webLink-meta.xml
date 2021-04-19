@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>zoom_app__Sync_Webinar_From_Zoom_us</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <height>600</height>
+    <linkType>page</linkType>
+    <masterLabel>Sync Webinar From Zoom.us</masterLabel>
+    <openType>sidebar</openType>
+    <page>zoom_app__ZoomWebinarSyncButton</page>
+    <protected>false</protected>
+</WebLink>

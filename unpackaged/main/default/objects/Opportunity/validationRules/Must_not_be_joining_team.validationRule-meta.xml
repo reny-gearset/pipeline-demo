@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Must_not_be_joining_team</fullName>
+    <active>true</active>
+    <errorConditionFormula>ISPICKVAL(LeadSource, "Joining team")</errorConditionFormula>
+    <errorMessage>Opportunities must never have the Lead Source "Joining team"</errorMessage>
+</ValidationRule>

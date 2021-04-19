@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Outreach</fullName>
+        <default>true</default>
+        <label>Outreach</label>
+    </customValue>
+    <customValue>
+        <fullName>Replied</fullName>
+        <default>false</default>
+        <label>Replied</label>
+    </customValue>
+    <customValue>
+        <fullName>Engaged</fullName>
+        <default>false</default>
+        <label>Engaged</label>
+    </customValue>
+    <customValue>
+        <fullName>Demo booked</fullName>
+        <default>false</default>
+        <label>Demo booked</label>
+    </customValue>
+    <customValue>
+        <fullName>Nurture</fullName>
+        <default>false</default>
+        <label>Nurture</label>
+    </customValue>
+    <customValue>
+        <fullName>Recycle</fullName>
+        <default>false</default>
+        <label>Recycle</label>
+    </customValue>
+    <customValue>
+        <fullName>Trash</fullName>
+        <default>false</default>
+        <label>Trash</label>
+    </customValue>
+    <description>The stages a contact in an account relates to for named accounts.</description>
+    <masterLabel>Contact Path</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

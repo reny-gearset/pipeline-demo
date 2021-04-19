@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>zoom_app__Setting_Approval_Type__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Approval Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Automatically Approval</fullName>
+                <default>false</default>
+                <label>Automatically Approval</label>
+            </value>
+            <value>
+                <fullName>Manually Approval</fullName>
+                <default>false</default>
+                <label>Manually Approval</label>
+            </value>
+            <value>
+                <fullName>No Registration Required</fullName>
+                <default>false</default>
+                <label>No Registration Required</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

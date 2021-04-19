@@ -1,0 +1,13 @@
+<html><head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;"><span style="font-size:12px;"><span style="font-family:Arial,Helvetica,sans-serif;">Hi {{{Recipient.FirstName}}},<br />
+<br />
+Grant from Gearset here, I'm reaching out as you're&nbsp;half way&nbsp;through&nbsp;your 30 day trial.<br />
+<br />
+I can see you've been taking advantage of the tool&nbsp;<span style="color:#c0392b;"><b>[XXXXX - INSERT SOME FEEDBACK ON WHAT THEY HAVE ACHIEVED IN THE TOOL - XXXXX]&nbsp;</b></span><br />
+<br />
+How are things&nbsp;going? Does this look like it would be a valuable tool for your Salesforce release management? I'd be happy to answer any questions you might have.<br />
+<br />
+Thanks,<br />
+{{{Sender.Signature}}}</span></span></body></html>

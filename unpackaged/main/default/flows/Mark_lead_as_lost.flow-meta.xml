@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <apiVersion>49.0</apiVersion>
+    <decisions>
+        <name>Other_is_selected_but_no_reason</name>
+        <label>Other is selected but no reason</label>
+        <locationX>605</locationX>
+        <locationY>225</locationY>
+        <defaultConnector>
+            <targetReference>Are_you_sure_you_want_to_mark_lead_as_lost</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Other_is_selected_but_no_reason_filled_in</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Lost_Reason</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Other...</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>Additional_Information</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue></stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Warn_about_other_needing_a_reason</targetReference>
+            </connector>
+            <label>Other is selected but no reason filled in</label>
+        </rules>
+    </decisions>
+    <dynamicChoiceSets>
+        <name>Lost_Reasons</name>
+        <dataType>Picklist</dataType>
+        <displayField xsi:nil="true"/>
+        <object xsi:nil="true"/>
+        <picklistField>Lost_Reason__c</picklistField>
+        <picklistObject>Lead</picklistObject>
+    </dynamicChoiceSets>
+    <interviewLabel>Mark lead as lost {!$Flow.CurrentDateTime}</interviewLabel>
+    <isAdditionalPermissionRequiredToRun>true</isAdditionalPermissionRequiredToRun>
+    <label>Mark lead as lost</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>Flow</processType>
+    <recordUpdates>
+        <name>Update_lead_as_lost</name>
+        <label>Update lead as lost</label>
+        <locationX>836</locationX>
+        <locationY>21</locationY>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>LeadId</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>Lost_Reason_Notes__c</field>
+            <value>
+                <elementReference>Additional_Information</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Lost_Reason__c</field>
+            <value>
+                <elementReference>Lost_Reasons</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Reopen_if_logs_in__c</field>
+            <value>
+                <elementReference>Let_me_know_if_they_log_in_again</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Status</field>
+            <value>
+                <stringValue>Lost</stringValue>
+            </value>
+        </inputAssignments>
+        <object>Lead</object>
+    </recordUpdates>
+    <screens>
+        <name>Are_you_sure_you_want_to_mark_lead_as_lost</name>
+        <label>Are you sure you want to mark lead as lost?</label>
+        <locationX>836</locationX>
+        <locationY>227</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+        <connector>
+            <targetReference>Update_lead_as_lost</targetReference>
+        </connector>
+        <fields>
+            <name>Are_You_Sure_Text</name>
+            <fieldText>&lt;p&gt;Are you sure you want to mark the lead as lost?&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <screens>
+        <name>Pick_Lost_Reasons</name>
+        <label>Pick Lost Reasons</label>
+        <locationX>504</locationX>
+        <locationY>29</locationY>
+        <allowBack>false</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>false</allowPause>
+        <connector>
+            <targetReference>Other_is_selected_but_no_reason</targetReference>
+        </connector>
+        <fields>
+            <name>Lost_Reason</name>
+            <choiceReferences>Lost_Reasons</choiceReferences>
+            <dataType>String</dataType>
+            <fieldText>Lost Reason</fieldText>
+            <fieldType>DropdownBox</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <fields>
+            <name>Additional_Information</name>
+            <dataType>String</dataType>
+            <fieldText>Additional Information</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <fields>
+            <name>Let_me_know_if_they_log_in_again</name>
+            <dataType>Boolean</dataType>
+            <fieldText>Let me know if they log in again</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>false</showHeader>
+    </screens>
+    <screens>
+        <name>Warn_about_other_needing_a_reason</name>
+        <label>Warn about other... needing a reason</label>
+        <locationX>369</locationX>
+        <locationY>218</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+        <connector>
+            <targetReference>Pick_Lost_Reasons</targetReference>
+        </connector>
+        <fields>
+            <name>Warning_about_needing_to_give_a_reason</name>
+            <fieldText>&lt;p&gt;You must fill in additional information if selecting lost reason as other...&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <start>
+        <locationX>50</locationX>
+        <locationY>50</locationY>
+        <connector>
+            <targetReference>Pick_Lost_Reasons</targetReference>
+        </connector>
+    </start>
+    <status>Draft</status>
+    <variables>
+        <name>LeadId</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+</Flow>

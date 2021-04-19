@@ -1,0 +1,13 @@
+<html><head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;"><p><span style="font-size:12px;"><span style="font-family:Arial,Helvetica,sans-serif;">Hi {{{Recipient.FirstName}}},</span></span></p>
+
+<p><span style="font-size:12px;"><span style="font-family:Arial,Helvetica,sans-serif;">I wanted to get in touch as you're over half way into your trial and&nbsp;it would be great to hear about your experience using Gearset.</span></span></p>
+
+<p><span style="font-size:12px;"><span style="font-family:Arial,Helvetica,sans-serif;">Are there any key features or functionality you've found useful, or anything you think could be improved? We are passionate about&nbsp;building Gearset around feedback from our clients and users. It would be really helpful to hear about your experience so far.&nbsp;<br />
+<br />
+It would be great if we could pencil in 10 - 15 minutes to have a quick chat about any best practices or assistance I could give you. Would you be available&nbsp;<span style="color:#c0392b;"><b>(XXXXX- THIS Wednesday at 14:00 GMT? - XXX)</b></span> if not&nbsp;</span></span><span style="font-size:12px;"><span style="font-family:Arial,Helvetica,sans-serif;">feel free to book something directly in my<a href="https://calendly.com/nathan-cross/20min"> calendar</a>&nbsp;that works for you.&nbsp;</span></span></p>
+
+<p><span style="font-size:12px;"><span style="font-family:Arial,Helvetica,sans-serif;">Thanks,<br />
+{{{Sender.Signature}}}</span></span></p></body></html>

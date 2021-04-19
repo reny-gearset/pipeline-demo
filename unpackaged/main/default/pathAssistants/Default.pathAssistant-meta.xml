@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <entityName>Lead</entityName>
+    <fieldName>Status</fieldName>
+    <masterLabel>Default</masterLabel>
+    <pathAssistantSteps>
+        <fieldNames>Company</fieldNames>
+        <fieldNames>Website</fieldNames>
+        <fieldNames>Industry</fieldNames>
+        <fieldNames>Title</fieldNames>
+        <fieldNames>Role__c</fieldNames>
+        <info>&lt;p&gt;A non-exhaustive list of things to do to triage this deal&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Check Salesforce if this person and company already exist as contacts / accounts&lt;/li&gt;&lt;li&gt;Check admin site to get their team. Have they joined another team?&lt;/li&gt;&lt;li&gt;Check what orgs they&amp;#39;ve connected to, and have other Gearset users been using those orgs?&lt;/li&gt;&lt;li&gt;Find them on LinkedIn. If you can&amp;#39;t find them there check social media, if they have a GMail address search their email in GMail for clues&lt;/li&gt;&lt;li&gt;Check Salesforce again against all the information you have now gathered.&lt;/li&gt;&lt;li&gt;If you&amp;#39;re confident that this is a new lead then fill out the information in Salesforce. Minimum requirement is to fill in the company field and copy and paste the LinkedIn URL for the person.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;</info>
+        <picklistValueName>New</picklistValueName>
+    </pathAssistantSteps>
+    <recordTypeName>__MASTER__</recordTypeName>
+</PathAssistant>

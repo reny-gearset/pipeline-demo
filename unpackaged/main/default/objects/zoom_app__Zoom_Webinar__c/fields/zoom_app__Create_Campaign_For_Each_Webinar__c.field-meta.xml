@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>zoom_app__Create_Campaign_For_Each_Webinar__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <inlineHelpText>Only 'Marketing User' can create Campaign, please check it on your user profile</inlineHelpText>
+    <label>Create Campaign</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

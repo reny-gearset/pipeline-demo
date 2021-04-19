@@ -1,0 +1,13 @@
+<html><head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;"><p><span style="font-size:12px;"><span style="font-family:Arial,Helvetica,sans-serif;">Hi&nbsp;{{{Recipient.FirstName}}},</span></span></p>
+
+<p><span style="font-size:12px;"><span style="font-family:Arial,Helvetica,sans-serif;">I just want&nbsp;to check how your trial is going and see if you have any questions? I can see that you <span style="color:#c0392b;"><b>(XXXX- DISCUSS THEIR GEARSET USAGE FROM THE ADMIN SITE - XXX)&nbsp;</b></span></span></span></p>
+
+<p><span style="font-size:12px;"><span style="font-family:Arial,Helvetica,sans-serif;">You can find useful information <a href="https://docs.gearset.com/en/">here</a>&nbsp;to help you get the most from the trial, including&nbsp;getting started with Gearset, what features we offer and the answers to a lot of FAQs.&nbsp;</span></span></p>
+
+<p><font face="Arial, Helvetica, sans-serif"><span style="font-size: 12px;">I'd be happy to jump on a call to talk through your use of Gearset, are you available&nbsp;at all this week?&nbsp;Feel free to book something directly in my</span></font><a href="https://calendly.com/nathan-cross/20min" style="font-family: Arial, Helvetica, sans-serif; font-size: 12px;"> calendar</a>&nbsp;<span style="font-size:12px;"><span style="font-family:Arial,Helvetica,sans-serif;">if you have a specific time or date in mind.&nbsp;</span></span></p>
+
+<p><span style="font-size:12px;"><span style="font-family:Arial,Helvetica,sans-serif;">All the best,&nbsp;<br />
+{{{Sender.FirstName}}}</span></span></p></body></html>

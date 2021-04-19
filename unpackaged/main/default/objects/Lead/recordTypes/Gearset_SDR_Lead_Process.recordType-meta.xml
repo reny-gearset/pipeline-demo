@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Gearset_SDR_Lead_Process</fullName>
+    <active>true</active>
+    <businessProcess>Gearset SDR Lead Process</businessProcess>
+    <compactLayoutAssignment>Gearset_SDR_Lead_Compact_Layout</compactLayoutAssignment>
+    <label>Gearset SDR Lead Process</label>
+    <picklistValues>
+        <picklist>Industry</picklist>
+        <values>
+            <fullName>Agriculture</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Business Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Charity %2F Non Profit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Construction</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consumer Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Education</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Energy%2C Utilities %26 Waste</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Financial Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Government</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Healthcare Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Holding Companies %26 Conglomerates</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hospitality</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Law Firms %26 Legal Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Manufacturing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Media %26 Internet</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Minerals %26 Mining</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Organizations</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pro Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Real estate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Retail</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Software</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Telecommunications</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transportation</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>LeadSource</picklist>
+        <values>
+            <fullName>Event</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inbound</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Joining team</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Outbound</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prospecting into base</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trialist</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Lost_Reason__c</picklist>
+        <values>
+            <fullName>Churn</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Competitor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Coronavirus</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Errors</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Features missing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Free tier</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Legal %2F procurement blocked</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Response</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No valid use case</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not ready yet</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other%2E%2E%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Price</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Region with low propensity to purchase</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trial solved need so no purchase</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Name</picklist>
+        <values>
+            <fullName>Dr%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mr%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mrs%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ms%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prof%2E</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Rating</picklist>
+        <values>
+            <fullName>Tier1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tier2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tier3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tier4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tier5</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Role__c</picklist>
+        <values>
+            <fullName>Release Manager</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Salesforce Admin</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Salesforce Developer</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Timezone__c</picklist>
+        <values>
+            <fullName>AEST</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AWST</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Brazil Standard Time</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CEST</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CST</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EST</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Far East</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GMT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GST</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IST</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MST</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Moscow ST</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PST</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type__c</picklist>
+        <values>
+            <fullName>Competitor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Implementation Partner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MVP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prospect</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reseller</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Salesforce</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Standard Customer</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

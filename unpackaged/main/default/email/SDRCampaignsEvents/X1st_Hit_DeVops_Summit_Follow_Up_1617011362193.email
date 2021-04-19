@@ -1,0 +1,21 @@
+<html><head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;"><p><span style="font-family:Verdana,Geneva,sans-serif;"><span style="font-size:12px;">Hi {{{Recipient.FirstName}}},</span></span></p>
+
+<p><span style="font-family:Verdana,Geneva,sans-serif;"><span style="font-size:12px;">Thank you so much for attending Gearset's first summit, The Future of Salesforce DevOps.&nbsp;&nbsp;Hoping&nbsp;you found it useful and came away with some great tips for building a DevOps process in Salesforce. I don't know about you, but the turnout blew me away! The chat also had a fantastic amount of questions as well. Did you post any?&nbsp;If you have any other questions that we didn't get round to I'd be happy to answer them for you.</span></span></p>
+
+<p><span style="font-family:Verdana,Geneva,sans-serif;"><span style="font-size:12px;">I wanted to make sure you had the links to the event recordings and can watch any sessions back on-demand. The links are open so feel free to share around with your teammates too:</span></span></p>
+
+<p><span style="font-family:Verdana,Geneva,sans-serif;"><span style="font-size:12px;">The State of Salesforce DevOps Keynote: https://youtu.be/1cbUqb_G8Eo (don't worry we removed the blur </span></span><span style="font-family:Verdana,Geneva,sans-serif;"><span style="font-size:12px;">)&nbsp;</span></span></p>
+
+<p><span style="font-family:Verdana,Geneva,sans-serif;"><span style="font-size:12px;">Full summit recording: https://gearset.wistia.com/medias/xbftbpqmsy</span></span></p>
+
+<p><span style="font-family:Verdana,Geneva,sans-serif;"><span style="font-size:12px;"><span style="color:#e74c3c;"><b>[SDR TO PERSONALIZE WITH LINE ON ONE OF THE EVENT TALKING POINTS/Call To<br />
+Action]</b></span></span></span></p>
+
+<p><span style="font-family:Verdana,Geneva,sans-serif;"><span style="font-size:12px;">We had a lot of people post the event reach out wanting to know about setting up a free trial with Gearset - if you need any help with this do let me know.&nbsp;<br />
+&nbsp;<br />
+All the best,</span></span></p>
+
+<p><span style="font-family:Verdana,Geneva,sans-serif;"><span style="font-size:12px;">{{{Sender.Signature}}}</span></span></p></body></html>

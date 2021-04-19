@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Must_set_lead_source_for_non_renewal_ops</fullName>
+    <active>true</active>
+    <errorConditionFormula>ISPICKVAL(LeadSource, "")
+&amp;&amp;
+$RecordType.DeveloperName != 'Gearset_Renewals_Process'</errorConditionFormula>
+    <errorDisplayField>LeadSource</errorDisplayField>
+    <errorMessage>Set Lead Source before progressing Opportunity</errorMessage>
+</ValidationRule>

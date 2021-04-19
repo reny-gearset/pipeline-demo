@@ -1,0 +1,9 @@
+node_modules/**
+dist
+*.csv
+.vscode
+*.sqlite
+notes-export
+*.DS_Store
+.sfdx/**
+.localdevserver

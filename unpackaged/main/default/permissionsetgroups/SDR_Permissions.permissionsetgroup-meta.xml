@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>SDR Permissions</label>
+    <permissionSets>Account_Read</permissionSets>
+    <permissionSets>Account_Write</permissionSets>
+    <permissionSets>Contact_Read</permissionSets>
+    <permissionSets>Contact_Write</permissionSets>
+    <permissionSets>Edit_events</permissionSets>
+    <permissionSets>Gearset_sales_app_access</permissionSets>
+    <permissionSets>Gmail_Integration</permissionSets>
+    <permissionSets>Lead_Conversion</permissionSets>
+    <permissionSets>Lead_Read</permissionSets>
+    <permissionSets>Lead_Write</permissionSets>
+    <permissionSets>Lightning_User</permissionSets>
+    <permissionSets>LinkedIn_User</permissionSets>
+    <permissionSets>Opportunity_Read</permissionSets>
+    <permissionSets>Opportunity_Write</permissionSets>
+    <permissionSets>Reports_View</permissionSets>
+    <permissionSets>Reports_Write</permissionSets>
+    <permissionSets>Task_Read</permissionSets>
+    <permissionSets>Task_Write</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>The prospect hasn&apos;t attached any SFDC orgs to Gearset</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>No orgs attached to Gearset</name>
+    <style>none</style>
+    <subject>Do you need some help getting started with Gearset?</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

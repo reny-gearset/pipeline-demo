@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Company_Size__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( ISNULL( NumberOfEmployees ), '',
+  IF(NumberOfEmployees &lt;= 100, '0-100',
+    IF (NumberOfEmployees &lt;= 500, '101-500',
+      IF (NumberOfEmployees &lt;= 1000, '501-1000', 
+        IF(NumberOfEmployees &lt;= 5000, '1001-5000', 
+          IF(NumberOfEmployees &lt;= 10000, '5001-10000',
+            IF(NumberOfEmployees &lt;= 25000, '10001-25000', '25001+')
+          )
+        )
+      )
+    )
+  )
+)</formula>
+    <inlineHelpText>Banding derived from Employees</inlineHelpText>
+    <label>Company Size</label>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

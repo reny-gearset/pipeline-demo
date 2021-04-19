@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_data_count__c</fullName>
+    <externalId>false</externalId>
+    <label>Data seats</label>
+    <description>The number of seats of the standard data loader product that the team have available. It's a bit academic as the add-on is enabled or disabled for the team, however, this number from a license perspective should be the sum of (Pro + Ent + Platform)</description>
+    <inlineHelpText>The number of seats of the standard data loader product that the team have available. It's a bit academic as the add-on is enabled or disabled for the team, however, this number from a license perspective should be the sum of (Pro + Ent + Platform)</inlineHelpText>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

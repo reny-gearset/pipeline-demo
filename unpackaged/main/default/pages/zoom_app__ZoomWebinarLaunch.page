@@ -1,0 +1,37 @@
+<apex:page standardController="zoom_app__Zoom_Webinar__c" extensions="zoom_app.ZoomWebinarLaunchCtrl" showHeader="true" sidebar="true">
+	 <script>
+        $(document).ready(function() {
+            launchWebinar();
+        });
+        function launchWebinar() {
+            var noError = {!NOT(isError)}; 
+            showOverlay();
+            if(noError){
+                var url = encodeURI($('[id$=startUrl]').val());
+                if(url != ''){                
+                    var newWindow = window.open(url, '_self');
+                }
+            }
+        }
+    </script>
+    <apex:composition template="zoom_app__zoomheader">
+        <apex:define name="body">
+            <div id="overlay" class="overlay"
+            style="text-align: center; padding-top: 190px; font-size: 32px; font-weight: bold;">Starting
+            the Zoom Webinar.....</div>
+            <apex:form id="mainForm">
+                <apex:outputpanel rendered="{!isError}"> 
+                    <div class="ex" align="center">
+                        <apex:outputpanel styleclass="textMessage">
+                            <apex:outputText value="{!errorMessage}"/>
+                        </apex:outputpanel>
+                        <br />
+                        <apex:commandButton styleClass="myCustomBtn" value="Close" action="{!redirectDetailPage}" oncomplete="" />
+                    </div>
+                   <!-- <apex:detail subject="{!Event.Id}" relatedlist="false" /> -->
+                </apex:outputpanel>
+                <apex:inputHidden id="startUrl" value="{!startUrl}" />
+            </apex:form>
+        </apex:define>
+    </apex:composition>
+</apex:page>

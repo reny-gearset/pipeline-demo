@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>PST</fullName>
+        <default>false</default>
+        <label>PST</label>
+    </customValue>
+    <customValue>
+        <fullName>MST</fullName>
+        <default>false</default>
+        <label>MST</label>
+    </customValue>
+    <customValue>
+        <fullName>CST</fullName>
+        <default>false</default>
+        <label>CST</label>
+    </customValue>
+    <customValue>
+        <fullName>EST</fullName>
+        <default>false</default>
+        <label>EST</label>
+    </customValue>
+    <customValue>
+        <fullName>Brazil Standard Time</fullName>
+        <default>false</default>
+        <label>Brazil Standard Time</label>
+    </customValue>
+    <customValue>
+        <fullName>GMT</fullName>
+        <default>false</default>
+        <label>GMT</label>
+    </customValue>
+    <customValue>
+        <fullName>CEST</fullName>
+        <default>false</default>
+        <label>CEST</label>
+    </customValue>
+    <customValue>
+        <fullName>GST</fullName>
+        <default>false</default>
+        <label>GST</label>
+    </customValue>
+    <customValue>
+        <fullName>IST</fullName>
+        <default>false</default>
+        <label>IST</label>
+    </customValue>
+    <customValue>
+        <fullName>Far East</fullName>
+        <default>false</default>
+        <label>Far East</label>
+    </customValue>
+    <customValue>
+        <fullName>AEST</fullName>
+        <default>false</default>
+        <label>AEST</label>
+    </customValue>
+    <customValue>
+        <fullName>AWST</fullName>
+        <default>false</default>
+        <label>AWST</label>
+    </customValue>
+    <customValue>
+        <fullName>Moscow ST</fullName>
+        <default>false</default>
+        <label>Moscow ST</label>
+    </customValue>
+    <masterLabel>Timezone</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

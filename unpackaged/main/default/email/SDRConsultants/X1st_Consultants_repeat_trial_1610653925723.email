@@ -1,0 +1,15 @@
+<html><head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;"><span style="font-size:12px;"><span style="font-family:Arial,Helvetica,sans-serif;">Hi {{{Recipient.FirstName}}},<br />
+<br />
+It's great to see you've signed up for Gearset.<br />
+<br />
+I'm {{{Sender.FirstName}}} �� and I'll be your point of contact during the trial - if you have any questions, feel free to ping them my way! We work with many consultancies as a single licence allows a user to build, track, and manage changes across multiple clients and organizations and provide detailed reports of their project progress.&nbsp;<br />
+<br />
+It's usually beneficial to have a quick 10-15 minute chat about what you're hoping Gearset can help with. That way, I can offer best practice tips and potentially set up a tailored demo to see the tool in action.&nbsp;<br />
+<br />
+Out of interest, are you looking to use Gearset internally or for a client?<br />
+<br />
+Thanks,&nbsp;<br />
+{{{Sender.Signature}}}</span></span></body></html>

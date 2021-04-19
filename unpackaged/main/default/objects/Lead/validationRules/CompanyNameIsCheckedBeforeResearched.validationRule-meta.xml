@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CompanyNameIsCheckedBeforeResearched</fullName>
+    <active>true</active>
+    <description>Check that some thought has gone into finding the company name before moving the lead on from New</description>
+    <errorConditionFormula>NOT(ISPICKVAL(Status, "New") || ISPICKVAL(Status, "Lost"))
+  &amp;&amp;
+Company = "DON'T KNOW"</errorConditionFormula>
+    <errorDisplayField>Company</errorDisplayField>
+    <errorMessage>Must fill in company before you can mark Lead as researched. Fill in 'Unknown' if you can't find any information.</errorMessage>
+</ValidationRule>

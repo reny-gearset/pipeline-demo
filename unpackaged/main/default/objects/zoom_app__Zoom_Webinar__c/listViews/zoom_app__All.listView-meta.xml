@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>zoom_app__All</fullName>
+    <columns>NAME</columns>
+    <columns>zoom_app__Topic__c</columns>
+    <columns>zoom_app__Webinar_Id__c</columns>
+    <columns>zoom_app__Start_Time__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+</ListView>

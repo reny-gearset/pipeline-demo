@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Team_license_reassignments__c</fullName>
+    <description>The number of times that licenses have been unassigned in the last 14 day period. It could be the same license being repeatedly unassigned and assigned to another team member, or just a batch reassignment once across the entire team for some reason</description>
+    <inlineHelpText>The number of times that licenses have been unassigned in the last 14 day period. It could be the same license being repeatedly unassigned and assigned to another team member, or just a batch reassignment once across the entire team for some reason</inlineHelpText>
+    <externalId>false</externalId>
+    <label>License reassignments</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

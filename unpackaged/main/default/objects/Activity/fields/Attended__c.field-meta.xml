@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Attended__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Check box if prospect attended the presentation</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Please check this box if the prospect attended the presentation.</inlineHelpText>
+    <label>Attended</label>
+    <type>Checkbox</type>
+</CustomField>

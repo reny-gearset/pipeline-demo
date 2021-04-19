@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>zoom_app__Use_personal_Zoom_meeting_Id__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>It's a setting of Zoom meeting.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Use Zoom personal meeting id for this meeting.</inlineHelpText>
+    <label>Use Personal Meeting ID</label>
+    <type>Checkbox</type>
+</CustomField>

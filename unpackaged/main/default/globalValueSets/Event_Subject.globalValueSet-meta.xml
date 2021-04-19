@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Call</fullName>
+        <default>false</default>
+        <label>Call</label>
+    </customValue>
+    <customValue>
+        <fullName>Email</fullName>
+        <default>false</default>
+        <label>Email</label>
+    </customValue>
+    <customValue>
+        <fullName>Meeting</fullName>
+        <default>false</default>
+        <label>Meeting</label>
+    </customValue>
+    <customValue>
+        <fullName>Send Letter/Quote</fullName>
+        <default>false</default>
+        <label>Send Letter/Quote</label>
+    </customValue>
+    <customValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </customValue>
+    <customValue>
+        <fullName>DEMO (Primary)</fullName>
+        <default>false</default>
+        <label>DEMO (Primary)</label>
+    </customValue>
+    <customValue>
+        <fullName>DEMO (FU)</fullName>
+        <default>false</default>
+        <label>DEMO (FU)</label>
+    </customValue>
+    <customValue>
+        <fullName>Scoping Call</fullName>
+        <default>false</default>
+        <label>Scoping Call</label>
+    </customValue>
+    <customValue>
+        <fullName>Qualifying Call</fullName>
+        <default>false</default>
+        <label>Qualifying Call</label>
+    </customValue>
+    <customValue>
+        <fullName>Webinar</fullName>
+        <default>false</default>
+        <label>Webinar</label>
+    </customValue>
+    <customValue>
+        <fullName>Tradeshow</fullName>
+        <default>false</default>
+        <label>Tradeshow</label>
+    </customValue>
+    <description>Pre-defined list of event types that salesforce users can pick</description>
+    <masterLabel>Event Subject</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

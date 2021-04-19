@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LID__cannot_edit_status_on_Linkedin_Tasks</fullName>
+    <active>false</active>
+    <errorConditionFormula>OR(RecordType.Name = "inMail", RecordType.Name = "Messages", RecordType.Name = "PointDrive Presentation Created", RecordType.Name = "PointDrive Presentation Viewed", RecordType.Name = "LinkedIn_Call")
+&amp;&amp; (ISCHANGED( Status ))</errorConditionFormula>
+    <errorDisplayField>OwnerId</errorDisplayField>
+    <errorMessage>You cannot edit the Assigned To field on LinkedIn Tasks</errorMessage>
+</ValidationRule>

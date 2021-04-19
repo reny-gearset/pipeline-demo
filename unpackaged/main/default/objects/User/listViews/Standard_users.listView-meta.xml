@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Standard_users</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>CORE.PROFILE.NAME</columns>
+    <columns>CORE.USERS.LAST_LOGIN</columns>
+    <columns>CORE.PROFILE.USERTYPE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CORE.PROFILE.USERTYPE</field>
+        <operation>equals</operation>
+        <value>S</value>
+    </filters>
+    <filters>
+        <field>CORE.PROFILE.NAME</field>
+        <operation>notEqual</operation>
+        <value>Identity User</value>
+    </filters>
+    <label>Standard users</label>
+</ListView>

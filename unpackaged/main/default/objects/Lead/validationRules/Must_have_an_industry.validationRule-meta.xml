@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Must_have_an_industry</fullName>
+    <active>true</active>
+    <description>Leads must have an industry set before they can be progressed to 'customer replied'</description>
+    <errorConditionFormula>ISPICKVAL(Industry, '') &amp;&amp; (
+   !ISPICKVAL(Status, 'New') &amp;&amp;
+   !ISPICKVAL(Status, 'Researched') &amp;&amp;
+   !ISPICKVAL(Status, 'Lost')
+)</errorConditionFormula>
+    <errorDisplayField>Industry</errorDisplayField>
+    <errorMessage>Leads must have an industry before they can be progressed to 'customer replied'</errorMessage>
+</ValidationRule>

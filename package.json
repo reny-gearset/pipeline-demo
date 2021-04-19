@@ -1,0 +1,27 @@
+{
+  "name": "production-salesforce",
+  "version": "1.0.0",
+  "description": "The repo for Gearset's Salesforce production instance",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "@salesforce/sfdx-lwc-jest": "^0.10.2",
+    "prettier": "2.1.2",
+    "prettier-plugin-apex": "1.7.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test:unit": "sfdx-lwc-jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gearset/production-salesforce.git"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "private": "true",
+  "bugs": {
+    "url": "https://github.com/Gearset/production-salesforce/issues"
+  },
+  "homepage": "https://github.com/Gearset/production-salesforce#readme"
+}

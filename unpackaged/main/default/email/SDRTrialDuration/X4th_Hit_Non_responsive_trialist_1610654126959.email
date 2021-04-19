@@ -1,0 +1,13 @@
+<html><head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;"><span style="font-size:12px;"><span style="font-family:Arial,Helvetica,sans-serif;">Hi {{{Recipient.FirstName}}},<br />
+<br />
+It's nice to see that you've logged onto your Gearset account quite a bit. I am glad to see you're getting a chance to really road test the system.<br />
+<br />
+We find that a lot of&nbsp;people who use the trial miss out some features and don't get complete insight into how Gearset can improve their release management process.<br />
+<br />
+Would it make sense to get a quick 10-15 min call about best practices? That way we can ensure you have a chance to really test out Gearset before your trial expires.&nbsp;<br />
+<br />
+All the best,<br />
+{{{Sender.Signature}}}</span></span></body></html>

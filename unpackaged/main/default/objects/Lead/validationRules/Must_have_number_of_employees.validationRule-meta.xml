@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Must_have_number_of_employees</fullName>
+    <active>true</active>
+    <description>Leads must have number of employees set before they can be progressed</description>
+    <errorConditionFormula>(
+  ISBLANK(NumberOfEmployees) || NumberOfEmployees == 0
+)
+&amp;&amp;
+(
+   !ISPICKVAL(Status, 'New') &amp;&amp;
+   !ISPICKVAL(Status, 'Researched') &amp;&amp;
+   !ISPICKVAL(Status, 'Lost')
+)</errorConditionFormula>
+    <errorDisplayField>NumberOfEmployees</errorDisplayField>
+    <errorMessage>Leads must have a number of employees before they can be progressed to 'Customer Replied'</errorMessage>
+</ValidationRule>

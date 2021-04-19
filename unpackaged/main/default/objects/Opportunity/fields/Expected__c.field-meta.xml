@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Expected__c</fullName>
+    <externalId>false</externalId>
+    <label>Expected</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Yes</fullName>
+                <default>false</default>
+                <label>Yes</label>
+            </value>
+            <value>
+                <fullName>Should_Be_Fine</fullName>
+                <default>false</default>
+                <label>Should Be Fine</label>
+            </value>
+            <value>
+                <fullName>Maybe</fullName>
+                <default>false</default>
+                <label>Maybe</label>
+            </value>
+            <value>
+                <fullName>Unknown</fullName>
+                <default>false</default>
+                <label>Unknown</label>
+            </value>
+            <value>
+                <fullName>Not_Expected</fullName>
+                <default>false</default>
+                <label>Not Expected</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

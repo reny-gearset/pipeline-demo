@@ -1,0 +1,11 @@
+<html><head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;"><p><span style="font-size:12px;"><span style="font-family:Arial,Helvetica,sans-serif;">Hi {{{Recipient.FirstName}}},</span></span></p>
+
+<p><span style="font-size:12px;"><span style="font-family:Arial,Helvetica,sans-serif;">Just to let you know your trial period ends this week and&nbsp;I can see you didn't get much chance to use the tool. Is a DevOps tool no longer on the agenda? If it was a case that you ran out of time to really explore the tool do please get in touch and I will see what I can do.&nbsp;</span></span></p>
+
+<p><span style="font-family: Arial, Helvetica, sans-serif; font-size: 12px;">If this is no longer of interest at the moment but you would like to look at Gearset in the future, please drop me a line when you're ready and I will be more than happy to help you get set up and answer any questions.&nbsp;&nbsp;</span><br />
+<br />
+<span style="font-size:12px;"><span style="font-family:Arial,Helvetica,sans-serif;">Have a great day,&nbsp;<br />
+{{{Sender.Signature}}}</span></span></p></body></html>

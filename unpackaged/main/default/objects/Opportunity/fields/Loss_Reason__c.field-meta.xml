@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Loss_Reason__c</fullName>
+    <externalId>false</externalId>
+    <label>Loss Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Lost to Competitor</fullName>
+                <default>false</default>
+                <label>Lost to Competitor</label>
+            </value>
+            <value>
+                <fullName>Price</fullName>
+                <default>false</default>
+                <label>Price</label>
+            </value>
+            <value>
+                <fullName>No Budget / Lost Funding</fullName>
+                <default>false</default>
+                <label>No Budget / Lost Funding</label>
+            </value>
+            <value>
+                <fullName>No Decision / Non-Responsive</fullName>
+                <default>false</default>
+                <label>No Decision / Non-Responsive</label>
+            </value>
+            <value>
+                <fullName>No valid use case</fullName>
+                <default>false</default>
+                <label>No valid use case</label>
+            </value>
+            <value>
+                <fullName>Legal / procurement blocked</fullName>
+                <default>false</default>
+                <label>Legal / procurement blocked</label>
+            </value>
+            <value>
+                <fullName>Errors</fullName>
+                <default>false</default>
+                <label>Errors</label>
+            </value>
+            <value>
+                <fullName>Features missing</fullName>
+                <default>false</default>
+                <label>Features missing</label>
+            </value>
+            <value>
+                <fullName>Trial solved need so no purchase</fullName>
+                <default>false</default>
+                <label>Trial solved need so no purchase</label>
+            </value>
+            <value>
+                <fullName>Free tier</fullName>
+                <default>false</default>
+                <label>Free tier</label>
+            </value>
+            <value>
+                <fullName>Churn (UPDATE CHURN SPREADSHEET)</fullName>
+                <default>false</default>
+                <label>Churn (UPDATE CHURN SPREADSHEET)</label>
+            </value>
+            <value>
+                <fullName>Low probability. Reopen if user signs in</fullName>
+                <default>false</default>
+                <label>Low probability. Reopen if user signs in</label>
+            </value>
+            <value>
+                <fullName>Not ready yet</fullName>
+                <default>false</default>
+                <label>Not ready yet</label>
+            </value>
+            <value>
+                <fullName>Coronavirus</fullName>
+                <default>false</default>
+                <label>Coronavirus</label>
+            </value>
+            <value>
+                <fullName>Region with low propensity to purchase</fullName>
+                <default>false</default>
+                <label>Region with low propensity to purchase</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

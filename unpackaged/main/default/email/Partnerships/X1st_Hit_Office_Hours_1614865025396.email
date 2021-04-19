@@ -1,0 +1,17 @@
+<html><head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">Hi {{{Recipient.FirstName}}},<br />
+<br />
+I hope you don't mind me getting in touch - I understand you've done some work with Gearset in the past, and I wanted to introduce myself. I've recently joined the team here to manage our relationships with Salesforce Architects. My goal is to make sure you have everything you need to work with us effectively - all the resources, information, and enablement to thrive with Salesforce DevOps!<br />
+<br />
+I'm setting up an Office Hours for Salesforce Architects, Consultants, and really anyone who's interested in DevOps best practices. This is a new, quarterly recurring session, hosted by Gearset CoFounder &amp; Chief Product Officer, Matt Dickens, and is an open forum for you to ask questions, get some insight into our roadmap, make requests for features, and share your feedback with us. We've set up 3 sessions - one for APAC, EMEA, and AMER time zones. We'd love to hear your experiences and learn how we could make Gearset work more effectively for your customers. You can use the links below to register for the timezone that works best for you.<br />
+<br />
+<a href="https://gearset.zoom.us/meeting/register/tJUpdOmpqzotGNYBMpbp4FEnqXUp3I4lkeIQ">APAC</a><br />
+<a href="https://gearset.zoom.us/meeting/register/tJIpdeyvqDouHtdshcNMUpuxiDZ28UHFgLnn">EMEA</a><br />
+<a href="https://gearset.zoom.us/meeting/register/tJwuc-igpj8qG9Py0cGvwDQOHSJ-XBKZAuRx">AMER&nbsp;</a> &nbsp;<br />
+<br />
+Would this be of interest to you?<br />
+<br />
+Thanks very much,<br />
+{{{Sender.Signature}}}</body></html>

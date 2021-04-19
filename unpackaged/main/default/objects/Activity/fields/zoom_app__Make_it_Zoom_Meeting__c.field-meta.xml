@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>zoom_app__Make_it_Zoom_Meeting__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <inlineHelpText>Tick this to make this event as a zoom &amp; Calendar event. This option will schedule a zoom meeting.</inlineHelpText>
+    <label>Schedule a Zoom Meeting</label>
+    <type>Checkbox</type>
+</CustomField>

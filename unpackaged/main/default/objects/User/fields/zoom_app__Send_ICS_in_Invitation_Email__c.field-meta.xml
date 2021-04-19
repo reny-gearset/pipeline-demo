@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>zoom_app__Send_ICS_in_Invitation_Email__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Send ICalendar Attachment File in Meeting Invitation Email</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Send ICalendar Attachment File in Meeting Invitation Email</inlineHelpText>
+    <label>Send ICS in Invitation Email</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Checkbox</type>
+</CustomField>

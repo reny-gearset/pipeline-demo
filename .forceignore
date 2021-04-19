@@ -1,0 +1,8 @@
+# .forceignore v2
+
+**/jsconfig.json
+
+**/.eslintrc.json
+
+# LWC Jest
+**/__tests__/**

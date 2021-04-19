@@ -1,0 +1,13 @@
+<html><head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;"><p><span style="font-size:12px;"><span style="font-family:Arial,Helvetica,sans-serif;">Hi {{{Recipient.FirstName}}},</span></span></p>
+
+<p><span style="font-size:12px;"><span style="font-family:Arial,Helvetica,sans-serif;">Just to let you know your trial period ends this week.&nbsp;</span></span><span style="font-size:12px;"><span style="font-family:Arial,Helvetica,sans-serif;">Did you get a chance to fully try out Gearset during your trial?</span></span></p>
+
+<p><span style="font-size:12px;"><span style="font-family:Arial,Helvetica,sans-serif;">Out of interest, were you using the trial to compare Gearset to any of your current tools or processes? If so, how did we stack up?&nbsp;</span></span></p>
+
+<p><span style="font-size:12px;"><span style="font-family:Arial,Helvetica,sans-serif;">I look forward to hearing about your experiences with Gearset, let me know if there is a time this week we could quickly catch up.&nbsp;<br />
+<br />
+Have a great day,&nbsp;<br />
+{{{Sender.Signature}}}</span></span></p></body></html>

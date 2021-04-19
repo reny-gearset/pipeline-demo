@@ -1,0 +1,12 @@
+<html><head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;"><span style="font-size:12px;"><span style="font-family:Verdana,Geneva,sans-serif;">Hi&nbsp;{{{Recipient.FirstName}}}<br />
+<br />
+Great to meet you! I noticed you signed up for a trial of Gearset, and wanted to get in touch.&nbsp;We work with quite a few <span style="color:#c0392b;"><b>{{{Recipient.Title}}}</b></span>&nbsp;at Salesforce, and I wanted to ask - how I can be most helpful to you?<br />
+<br />
+Happy to share more information about our initiatives specifically for Salesforce employees, or skip straight to talking through your project / customer’s requirements if that’s more relevant.<br />
+<br />
+Thanks very much,<br />
+<br />
+{{{Sender.Signature}}}</span></span></body></html>

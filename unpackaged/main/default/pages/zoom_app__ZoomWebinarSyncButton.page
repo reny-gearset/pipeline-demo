@@ -1,0 +1,27 @@
+<apex:page standardController="zoom_app__Zoom_Webinar__c" extensions="zoom_app.ZoomWebinarSyncButtonCtrl" showHeader="true" sidebar="true" action="{!syncWebinarInfoFromZoom}">
+		<script>
+			$(document).ready(function() {
+            	setTimeout(function(){
+            		$('.btn[type="submit"]').click();
+            	},8000);
+        	});
+		</script>
+		<apex:pageMessages />
+		<apex:composition template="zoom_app__zoomheader">
+	        <apex:define name="body">
+				<apex:form >
+					<apex:pageBlock >
+						<apex:pageBlockButtons >
+							<apex:commandButton value="Back" action="{!cancel}"/>
+						</apex:pageBlockButtons>
+						<apex:pageBlockSection >
+							<apex:outputField value="{!webinar.zoom_app__Topic__c}"/>
+							<apex:outputField value="{!webinar.zoom_app__Webinar_Id__c}"/>
+							<apex:outputField value="{!webinar.zoom_app__Setting_Approval_Type__c}"/>
+							<apex:outputField value="{!webinar.zoom_app__Start_Time__c}"/>
+						</apex:pageBlockSection>
+					</apex:pageBlock>
+				</apex:form>
+			</apex:define>
+		</apex:composition>
+</apex:page>

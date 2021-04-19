@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>zoom_app__Pending_for_Approval</fullName>
+    <columns>NAME</columns>
+    <columns>zoom_app__Email__c</columns>
+    <columns>zoom_app__First_Name__c</columns>
+    <columns>zoom_app__Last_Name__c</columns>
+    <columns>zoom_app__Zoom_Webinar__c</columns>
+    <columns>zoom_app__Status__c</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>zoom_app__Status__c</field>
+        <operation>equals</operation>
+        <value>Pending for Approval</value>
+    </filters>
+    <label>Pending for Approval</label>
+</ListView>

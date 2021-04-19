@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Agriculture</fullName>
+        <default>false</default>
+        <label>Agriculture</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Business Services</fullName>
+        <default>false</default>
+        <label>Business Services</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Charity / Non Profit</fullName>
+        <default>false</default>
+        <label>Charity / Non Profit</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Construction</fullName>
+        <default>false</default>
+        <label>Construction</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Consumer Services</fullName>
+        <default>false</default>
+        <label>Consumer Services</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Education</fullName>
+        <default>false</default>
+        <label>Education</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Energy, Utilities &amp; Waste</fullName>
+        <default>false</default>
+        <label>Energy, Utilities &amp; Waste</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Financial Services</fullName>
+        <default>false</default>
+        <label>Financial Services</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Government</fullName>
+        <default>false</default>
+        <label>Government</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Healthcare Services</fullName>
+        <default>false</default>
+        <label>Healthcare Services</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Holding Companies &amp; Conglomerates</fullName>
+        <default>false</default>
+        <label>Holding Companies &amp; Conglomerates</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Hospitality</fullName>
+        <default>false</default>
+        <label>Hospitality</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Law Firms &amp; Legal Services</fullName>
+        <default>false</default>
+        <label>Law Firms &amp; Legal Services</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Manufacturing</fullName>
+        <default>false</default>
+        <label>Manufacturing</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Media &amp; Internet</fullName>
+        <default>false</default>
+        <label>Media &amp; Internet</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Minerals &amp; Mining</fullName>
+        <default>false</default>
+        <label>Minerals &amp; Mining</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Organizations</fullName>
+        <default>false</default>
+        <label>Organizations</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Pro Services</fullName>
+        <default>false</default>
+        <label>Professional Services</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Real estate</fullName>
+        <default>false</default>
+        <label>Real estate</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Retail</fullName>
+        <default>false</default>
+        <label>Retail</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Software</fullName>
+        <default>false</default>
+        <label>Software</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Telecommunications</fullName>
+        <default>false</default>
+        <label>Telecommunications</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Transportation</fullName>
+        <default>false</default>
+        <label>Transportation</label>
+    </standardValue>
+</StandardValueSet>

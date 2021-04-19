@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>zoom_app__Setting_Close_Registration__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Close Registration After Event Date</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

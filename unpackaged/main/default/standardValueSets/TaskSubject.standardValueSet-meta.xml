@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Call</fullName>
+        <default>false</default>
+        <label>📞 Call</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Send Quote</fullName>
+        <default>false</default>
+        <label>🕐 Send Quote</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>🕐  Other</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Email</fullName>
+        <default>false</default>
+        <label>📬 Email</label>
+    </standardValue>
+    <standardValue>
+        <fullName>MUST -</fullName>
+        <default>false</default>
+        <label>MUST - 🕐</label>
+    </standardValue>
+    <standardValue>
+        <fullName>FU -</fullName>
+        <default>false</default>
+        <label>FU - 🕐</label>
+    </standardValue>
+    <standardValue>
+        <fullName>REVISIT -</fullName>
+        <default>false</default>
+        <label>REVISIT - 🕐</label>
+    </standardValue>
+</StandardValueSet>

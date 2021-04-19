@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Deployment_success_rate__c</fullName>
+    <description>The percentage of deployments this team started that succeeded, over the past 45 days. The nuance is we count any deployments that failed due to test failure as a success, as it isn't our fault. If no deployments in last 45, then 0</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The percentage of deployments this team started that succeeded, over the past 45 days. The nuance is we count any deployments that failed due to test failure as a success, as it isn't our fault. If no deployments in last 45, then 0</inlineHelpText>
+    <label>Deployment success rate</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Percent</type>
+</CustomField>

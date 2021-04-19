@@ -1,0 +1,11 @@
+<html><head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;"><p style="line-height:1.38"><span style="font-size:11pt; font-variant:normal; white-space:pre-wrap"><span style="font-family:Arial"><span style="color:#000000"><span style="font-weight:400"><span style="font-style:normal"><span style="text-decoration:none">Hi {{{Recipient.FirstName}}}</span></span></span></span></span></span></p>
+
+<p style="line-height:1.38"><span style="font-size:11pt; font-variant:normal; white-space:pre-wrap"><span style="font-family:Arial"><span style="color:#000000"><span style="font-weight:400"><span style="font-style:normal"><span style="text-decoration:none">Excited for the Future of Salesforce DevOps Summit? I am! We’ll be going live at <b>9am PT this Thursday </b>but I wanted to make sure you have all the details you need to join.<br />
+Everything you need is in your registration email - but please let me know if you have any questions ahead of the event. I have attached my contact details below in case you have any questions logging on.<br />
+See you there!<br />
+{{{Sender.Signature}}}</span></span></span></span></span></span></p>
+<br />
+&nbsp;</body></html>

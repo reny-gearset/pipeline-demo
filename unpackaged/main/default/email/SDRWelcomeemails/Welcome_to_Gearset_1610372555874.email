@@ -1,0 +1,54 @@
+<html><head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;"><span style="font-size:12px;"><span style="font-family:Arial,Helvetica,sans-serif;">Hi {{{Recipient.FirstName}}}<br />
+<br />
+It's great to see that you've signed up for a trial with Gearset.</span></span>
+<div>&nbsp;
+<div>
+<div style="border:0px; padding:0px">
+<div dir="ltr" style="border:0px; padding:0px">
+<div dir="ltr" style="border:0px; padding:0px"><span style="font-size:12px;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit;"><span style="vertical-align:baseline"><span style="font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit;"><span style="vertical-align:baseline"><span style="font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit;"><span style="vertical-align:baseline">My name is {{{Sender.FirstName}}} and I will be your point of contact during your trial. Please feel free to let me know if you have any questions, or need any help.</span></span></span></span></span></span></span></span></div>
+
+<div dir="ltr" style="border:0px; padding:0px">
+<div>&nbsp;</div>
+
+<div><span style="font-size:12px;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit;"><span style="vertical-align:baseline"><span style="font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit;"><span style="vertical-align:baseline"><span style="font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit;"><span style="vertical-align:baseline"><span style="font-style:inherit"><span style="font-variant-ligatures:inherit"><span style="font-weight:inherit">Would you like to schedule a call for me to chat you through some of the ways to make the most of the trial? Or do you have any questions that immediately jump out?<br />
+<br />
+You can use my calendly link in my signature below to set up a call with me any time.&nbsp;</span></span></span></span></span></span></span></span></span></span></span></div>
+</div>
+</div>
+
+<div dir="ltr" style="border:0px; padding:0px">
+<div>&nbsp;</div>
+</div>
+
+<div dir="ltr" style="border:0px; padding:0px">
+<div><span style="font-size:12px;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit;"><span style="vertical-align:baseline"><span style="font-style:inherit"><span style="font-variant:inherit"><span style="font-stretch:inherit"><span style="line-height:inherit"><span style="vertical-align:baseline"><span style="font-weight:inherit">Thanks,</span></span></span></span></span></span></span></span></span></span></div>
+</div>
+</div>
+
+<div style="border:0px; padding:0px">
+<div dir="ltr" style="border:0px; padding:0px">
+<div dir="ltr" style="border:0px; padding:0px">
+<div dir="ltr" style="border:0px; padding:0px">
+<div style="border:0px; padding:0px">
+<div dir="ltr" style="border:0px; padding:0px">
+<div dir="ltr" style="border:0px; padding:0px">
+<div style="border:0px; padding:0px">
+<div dir="ltr" style="border:0px; padding:0px">
+<div dir="ltr" style="border:0px; padding:0px">
+<div>&nbsp;</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+{{{Sender.Signature}}}</body></html>

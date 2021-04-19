@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Events_add_continuous_integration_count__c</fullName>
+    <externalId>false</externalId>
+    <label>Add continuous integration event count</label>
+    <description>The number of times that the add continuous integration job event has happened. Each of these events correlates to somebody creating a new job. This can be higher than the number of currently configured jobs if the user later deleted some of the jobs</description>
+    <inlineHelpText>The number of times that the add continuous integration job event has happened. Each of these events correlates to somebody creating a new job. This can be higher than the number of currently configured jobs if the user later deleted some of the jobs</inlineHelpText>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

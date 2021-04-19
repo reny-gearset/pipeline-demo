@@ -1,0 +1,18 @@
+<html><head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;"><p><span style="font-size:12px;"><span style="font-family:Verdana,Geneva,sans-serif;">Hi {{{Recipient.FirstName}}},</span></span></p>
+
+<p><span style="font-size:12px;"><span style="font-family:Verdana,Geneva,sans-serif;">I wanted to follow up from my previous email, you should have the full Summit recording now! As anticipated from the keynote, we've now published The State of Salesforce DevOps 2021 report and you can grab it here: <a href="https://gearset.com/resources/devops-report/" style="font-family: Verdana, Geneva, sans-serif; font-size: 12px;">https://gearset.com/resources/devops-report/</a></span></span></p>
+<span style="font-size:12px;"><span style="font-family:Verdana,Geneva,sans-serif;"><span style="color:#c0392b;"><b>[XXXX - SDR TO PERSONALIZE WITH HIGHLIGHTS FROM THE SURVEY:</b></span><br />
+<br />
+<span style="color:#c0392b;"><b>- 22% of companies reviewed stated that concerns about ramp up time is why they haven't adopted DevOps tools</b></span><br />
+<span style="color:#c0392b;"><b>- 53% however said that the biggest challenge they faced in 2020 was increased demand on their teams - XXXXX]</b></span></span></span>
+
+<p><span style="font-size:12px;"><span style="font-family:Verdana,Geneva,sans-serif;">The survey and report has provided some interesting insights into the state of the industry and we'll be focusing our future webinars around these key topics.</span></span></p>
+
+<p><span style="font-size:12px;"><span style="font-family:Verdana,Geneva,sans-serif;">A lot of folks who joined the event and hadn't had a chance to check out Gearset before have either booked in for a quick chat with me or checked out the free trial on the website, so if this is something you're also interested in then please let me know and I'd be happy to help!</span></span></p>
+
+<p><span style="font-size:12px;"><span style="font-family:Verdana,Geneva,sans-serif;">Hope to speak with you soon,</span></span></p>
+
+<p><span style="font-size:12px;"><span style="font-family:Verdana,Geneva,sans-serif;">{{{Sender.Signature}}}</span></span></p></body></html>

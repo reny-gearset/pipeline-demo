@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Tier1</fullName>
+        <default>false</default>
+        <label>Tier1</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Tier2</fullName>
+        <default>false</default>
+        <label>Tier2</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Tier3</fullName>
+        <default>false</default>
+        <label>Tier3</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Tier4</fullName>
+        <default>false</default>
+        <label>Tier4</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Tier5</fullName>
+        <default>false</default>
+        <label>Tier5</label>
+    </standardValue>
+</StandardValueSet>

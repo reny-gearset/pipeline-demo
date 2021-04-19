@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <entityName>Contact</entityName>
+    <fieldName>Contact_Status__c</fieldName>
+    <masterLabel>Named Account Contact</masterLabel>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;Responding to outreach and engaged with BDR &lt;/p&gt;</info>
+        <picklistValueName>Engaged</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;Prospect is a good lead but needs to be nurtured until mature for purchase. &lt;/p&gt;</info>
+        <picklistValueName>Nurture</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;For contacts you have been sending information to but have not responded. &lt;/p&gt;</info>
+        <picklistValueName>Outreach</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;Not ready to buy yet and not effective use of time to focus on this prospect. &lt;/p&gt;</info>
+        <picklistValueName>Recycle</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;Customer has replied to your outreach either by phone or email. &lt;/p&gt;</info>
+        <picklistValueName>Replied</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;Prospect has either left the company or will not help advance account penetration. &lt;/p&gt;</info>
+        <picklistValueName>Trash</picklistValueName>
+    </pathAssistantSteps>
+    <recordTypeName>__MASTER__</recordTypeName>
+</PathAssistant>

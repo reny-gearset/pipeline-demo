@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Trial is ending this week (break up email)</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Trial end - no usage</name>
+    <style>none</style>
+    <subject>Your Gearset trial will expire soon</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

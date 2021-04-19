@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>1st Hit invitation to the office hours for Salesforce (links to register included)</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>1st Hit - Office Hours</name>
+    <style>none</style>
+    <subject>Gearset office hours for Salesforce</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

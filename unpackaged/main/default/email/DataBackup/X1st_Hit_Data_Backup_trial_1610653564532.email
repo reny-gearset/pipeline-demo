@@ -1,0 +1,13 @@
+<html><head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;"><span style="font-size:12px;"><span style="font-family:Arial,Helvetica,sans-serif;">Hi {{{Recipient.FirstName}}},<br />
+<br />
+It's great to see that you've signed up for a data backup trial with Gearset :)<br />
+<br />
+My name is {{{Sender.FirstName}}} and I will be your point of contact during your trial. Please feel free to let me know if you have any questions or need any help!<br />
+<br />
+It would be great to learn what you are looking to get out of this trial? Would it be valuable to have a quick chat this week and I can make sure you have access to all the resources you need?&nbsp;<br />
+<br />
+Thanks,<br />
+{{{Sender.Signature}}}</span></span></body></html>

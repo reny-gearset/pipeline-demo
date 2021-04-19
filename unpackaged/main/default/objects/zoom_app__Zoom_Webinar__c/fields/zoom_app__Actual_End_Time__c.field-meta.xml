@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>zoom_app__Actual_End_Time__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The actual end time of this Webinar</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The actual end time of this Webinar</inlineHelpText>
+    <label>Actual End Time</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>DateTime</type>
+</CustomField>

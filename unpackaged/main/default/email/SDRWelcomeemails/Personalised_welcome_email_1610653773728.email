@@ -1,0 +1,13 @@
+<html><head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;"><font face="Arial, Helvetica, sans-serif"><span style="font-size: 12px;">Hi {{{Recipient.FirstName}}},</span></font><br />
+<br />
+<font face="Arial, Helvetica, sans-serif"><span style="font-size: 12px;">It's great to see you've signed up for Gearset. I'm {{{Sender.FirstName}}} </span></font><font face="Arial, Helvetica, sans-serif"><span style="font-size: 12px;">and I'll be your point of contact during the trial - if you have any questions, feel free to ping them my way!</span></font><br />
+<br />
+<font face="Arial, Helvetica, sans-serif"><span style="font-size: 12px;">It's usually beneficial to have a quick 10-15 minute chat about how Gearset can help with your current release management process. I can offer best practice tips to help you hit the ground running and potentially set up a demo to see the app in action.</span></font><br />
+<br />
+<font face="Arial, Helvetica, sans-serif"><span style="font-size: 12px;">What are your aims for this trial? </span></font><b style="color: rgb(211, 84, 0); font-family: Arial, Helvetica, sans-serif; font-size: 12px;">[XXXX - Add something </b><font color="#d35400" face="Arial, Helvetica, sans-serif"><span style="font-size: 12px;"><b>relevant</b></span></font><b style="color: rgb(211, 84, 0); font-family: Arial, Helvetica, sans-serif; font-size: 12px;">&nbsp;here around thier job title or company- XX]</b><br />
+<br />
+<font face="Arial, Helvetica, sans-serif"><span style="font-size: 12px;">Thanks,<br />
+{{{Sender.Signature}}}</span></font></body></html>

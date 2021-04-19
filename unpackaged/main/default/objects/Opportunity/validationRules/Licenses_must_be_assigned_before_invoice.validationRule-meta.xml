@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Licenses_must_be_assigned_before_invoice</fullName>
+    <active>true</active>
+    <description>The licenses assigned checkbox must be ticked to show that the licenses have been assigned in the admin site prior to moving to the Invoice Issued stage.</description>
+    <errorConditionFormula>AND(RecordType.DeveloperName = 'Gearset_Renewals_Process',  LicensesAssigned__c  = FALSE,  TEXT(StageName)  = 'Invoice Issued' )</errorConditionFormula>
+    <errorMessage>Confirm that licenses have been assigned.</errorMessage>
+</ValidationRule>
