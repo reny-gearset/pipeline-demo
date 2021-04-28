@@ -2,7 +2,6 @@
 global with sharing class ContactController {
 	@HttpPatch
     global static void updateContactAddress () {
-            
         RestRequest request = RestContext.request;
         String contactId = request.requestURI.substring(request.requestURI.lastIndexOf('/') + 1);
             
