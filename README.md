@@ -9,6 +9,7 @@ Please only run this against sandboxes setup against production salesforce liste
  - https://gearset--dev2pip.my.salesforce.com/
 
 Staging Test1
+TestSubset
 
 Some hints:     
 
