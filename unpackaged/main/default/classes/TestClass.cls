@@ -1,6 +1,11 @@
 @isTest
 public class TestClass {
+<<<<<<< HEAD
     // a new comment
+=======
+
+     // another new comment
+>>>>>>> 82e8058b995d3acf1ce46002709aaa09ba36dda1
     @isTest
     public static void testFoo() {
         System.assert(false);
