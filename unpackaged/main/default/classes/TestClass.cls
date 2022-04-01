@@ -4,5 +4,6 @@ public class TestClass {
     @isTest
     public static void testFoo() {
         System.assert(false);
+        /* this used to be false */ System.assert(false);// but may be changed later
     }
 }
