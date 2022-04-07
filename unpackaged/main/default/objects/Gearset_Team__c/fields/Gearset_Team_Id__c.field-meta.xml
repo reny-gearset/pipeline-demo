@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Gearset_Team_Id__c</fullName>
+    <caseSensitive>false</caseSensitive>
+    <externalId>true</externalId>
+    <label>Gearset Team Id</label>
+    <description>The id of the Gearset team, as you might find on the admin site.</description>
+    <inlineHelpText>The id of the Gearset team, as you might find on the admin site.</inlineHelpText>
+    <length>36</length>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>true</unique>
+</CustomField>

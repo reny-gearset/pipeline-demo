@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sign_In_Country__c</fullName>
+    <description>The country retrieved from the lead&#39;s IP address when they sign-up. It is set when a user account is first created and updated in the scenario where a user account is updated when logging in to the Gearset app.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The country retrieved from the lead&#39;s IP address when they sign-up. It is set when a user account is first created and updated in the scenario where a user account is updated when logging in to the Gearset app.</inlineHelpText>
+    <label>Sign-In Country</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Unknown</fullName>
+                <default>true</default>
+                <label>Unknown</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

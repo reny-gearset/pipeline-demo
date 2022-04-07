@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Team_revenue_usage_trend__c</fullName>
+    <externalId>false</externalId>
+    <label>Usage trend</label>
+    <description>The usage trend is a measure of number of comparions across the team, compared with the previous 30 days. It is a crude measure of whether the team are using the product more or less frequently than they were.</description>
+    <inlineHelpText>The usage trend is a measure of number of comparions across the team, compared with the previous 30 days. It is a crude measure of whether the team are using the product more or less frequently than they were.</inlineHelpText>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Percent</type>
+</CustomField>

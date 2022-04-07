@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Churn_header</fullName>
+    <fields>Name</fields>
+    <fields>Account__c</fields>
+    <fields>MRR_loss__c</fields>
+    <label>Churn header</label>
+</CompactLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Check_billing_cycle_for_won_non_renewal</fullName>
+    <active>true</active>
+    <description>The Billing Cycle field is mandatory for an opp to enter the Close/Won stage</description>
+    <errorConditionFormula>AND(ISPICKVAL(StageName, &quot;Closed Won&quot;), ISPICKVAL(Expected__c, &quot;&quot;), $RecordType.DeveloperName != &quot;Gearset_Renewals_Process&quot;)</errorConditionFormula>
+    <errorDisplayField>Expected__c</errorDisplayField>
+    <errorMessage>The opportunity cannot enter Closed Won stage without a Billing Cycle field populated with a value</errorMessage>
+</ValidationRule>

@@ -1,0 +1,15 @@
+<template>
+    <lightning-datatable
+        key-field="user_id"
+        data={data}
+        columns={columns}
+        sorted-by={sortedBy}
+        sorted-direction={sortedDirection}
+        onsort={handleSort}>
+    
+    </lightning-datatable>
+
+    <div if:true={errorMessage}>
+        {errorMessage}
+    </div>
+</template>
