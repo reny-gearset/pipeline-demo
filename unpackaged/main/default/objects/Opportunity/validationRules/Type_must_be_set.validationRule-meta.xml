@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type_must_be_set</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+
+    NOT(OR(
+      ISPICKVAL(StageName, &quot;Discovery&quot;),
+      ISPICKVAL(StageName, &quot;Approaching Renewal&quot;)
+    )),
+    ISBLANK(TEXT(Type))
+
+)</errorConditionFormula>
+    <errorDisplayField>Type</errorDisplayField>
+    <errorMessage>All Opportunities must have a Type</errorMessage>
+</ValidationRule>

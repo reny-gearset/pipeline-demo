@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ListView xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>TodaysAgenda</fullName>
     <columns>START_DATE_TIME</columns>
@@ -19,5 +19,5 @@
         <operation>greaterOrEqual</operation>
         <value>TODAY</value>
     </filters>
-    <label>Today's Agenda</label>
+    <label>Today&#39;s Agenda</label>
 </ListView>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Identify_Pain__c</fullName>
+    <description>(I) Identify Pain: the problems created by the customer&#39;s current state (nobody buys until there is pain!)</description>
+    <externalId>false</externalId>
+    <inlineHelpText>(I) Identify Pain: the problems created by the customer&#39;s current state (nobody buys until there is pain!)</inlineHelpText>
+    <label>Identify Pain</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

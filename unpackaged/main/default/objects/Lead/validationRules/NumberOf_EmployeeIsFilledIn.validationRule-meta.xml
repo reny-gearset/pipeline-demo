@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NumberOf_EmployeeIsFilledIn</fullName>
+    <active>true</active>
+    <description>We want a validation rule that enforces all leads beyond New need to have an employee size</description>
+    <errorConditionFormula>NOT(ISPICKVAL(Status, &quot;New&quot;) || ISPICKVAL(Status, &quot;Ready for SDR&quot;) || ISPICKVAL(Status, &quot;Lost&quot;))
+&amp;&amp; ISBLANK(NumberOfEmployees)</errorConditionFormula>
+    <errorMessage>Please fill out the estimate of number of employees</errorMessage>
+</ValidationRule>

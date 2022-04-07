@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type_set_when_stage_is_Customer_replied</fullName>
+    <active>true</active>
+    <description>We want a validation rule on Lead.Type__c that means it needs to be set by the time it&#39;s in Customer replied</description>
+    <errorConditionFormula>AND(ISPICKVAL(Status, &quot;Customer Replied&quot;), ISBLANK(TEXT(Type__c )) )</errorConditionFormula>
+    <errorMessage>Type must not be blank when the Status is Customer replied</errorMessage>
+</ValidationRule>

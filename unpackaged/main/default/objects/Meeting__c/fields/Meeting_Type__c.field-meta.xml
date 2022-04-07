@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Meeting_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Meeting Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Intro Call</fullName>
+                <default>false</default>
+                <label>Intro Call</label>
+            </value>
+            <value>
+                <fullName>Discovery</fullName>
+                <default>false</default>
+                <label>Discovery</label>
+            </value>
+            <value>
+                <fullName>Demo</fullName>
+                <default>false</default>
+                <label>Demo</label>
+            </value>
+            <value>
+                <fullName>Followup</fullName>
+                <default>false</default>
+                <label>Followup</label>
+            </value>
+            <value>
+                <fullName>Trial</fullName>
+                <default>false</default>
+                <label>Trial</label>
+            </value>
+            <value>
+                <fullName>Security</fullName>
+                <default>false</default>
+                <label>Security/Legal</label>
+            </value>
+            <value>
+                <fullName>Negotiations</fullName>
+                <default>false</default>
+                <label>Negotiations</label>
+            </value>
+            <value>
+                <fullName>Renewal</fullName>
+                <default>false</default>
+                <label>Renewal</label>
+            </value>
+            <value>
+                <fullName>Sales Call</fullName>
+                <default>false</default>
+                <label>Sales Call</label>
+            </value>
+            <value>
+                <fullName>Success Call</fullName>
+                <default>false</default>
+                <label>Success Call</label>
+            </value>
+            <value>
+                <fullName>Implementation</fullName>
+                <default>false</default>
+                <label>Implementation</label>
+            </value>
+            <value>
+                <fullName>POC</fullName>
+                <default>false</default>
+                <label>POC</label>
+            </value>
+            <value>
+                <fullName>Secluded POC</fullName>
+                <default>false</default>
+                <label>Secluded POC</label>
+            </value>
+            <value>
+                <fullName>Integrated POC</fullName>
+                <default>false</default>
+                <label>Integrated POC</label>
+            </value>
+            <value>
+                <fullName>Full POC</fullName>
+                <default>false</default>
+                <label>Full POC</label>
+            </value>
+            <value>
+                <fullName>POC Planning</fullName>
+                <default>false</default>
+                <label>POC Planning</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

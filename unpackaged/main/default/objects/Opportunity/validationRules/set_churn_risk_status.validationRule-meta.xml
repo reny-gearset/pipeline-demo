@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>set_churn_risk_status</fullName>
+    <active>true</active>
+    <description>You need to set a Stage on the account, when you close win a New Opportunity on a New Account</description>
+    <errorConditionFormula>AND(
+ISPICKVAL(Account.churn_risk__c, &#39;&#39;) ,
+ISPICKVAL(StageName, &#39;Closed Won&#39;)
+)</errorConditionFormula>
+    <errorMessage>You cannot set an Opportunity to close without setting the Stage on the account</errorMessage>
+</ValidationRule>
