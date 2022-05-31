@@ -12,3 +12,4 @@ s1 x
 y
 a master change
 new-change
+new-change-2
