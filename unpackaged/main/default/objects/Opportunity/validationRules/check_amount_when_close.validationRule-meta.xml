@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>check_amount_when_close</fullName>
+    <active>true</active>
+    <description>The opportunity cannot enter Closed Won stage without a Amount field populated with a value</description>
+    <errorConditionFormula>AND(ISPICKVAL(StageName, &quot;Closed Won&quot;), ISBLANK(Amount))</errorConditionFormula>
+    <errorDisplayField>Amount</errorDisplayField>
+    <errorMessage>The Amount field is mandatory for an opp to enter the Close/Won stage</errorMessage>
+</ValidationRule>

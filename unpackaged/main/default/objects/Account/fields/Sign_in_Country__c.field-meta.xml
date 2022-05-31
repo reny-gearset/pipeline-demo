@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sign_in_Country__c</fullName>
+    <description>The country retrieved from the lead&#39;s IP address when they sign-up, converted from the lead.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The country retrieved from the lead&#39;s IP address when they sign-up, converted from the lead.</inlineHelpText>
+    <label>Sign-in Country</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Unknown</fullName>
+                <default>true</default>
+                <label>Unknown</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

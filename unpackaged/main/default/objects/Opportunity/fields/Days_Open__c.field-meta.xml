@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Days_Open__c</fullName>
+    <description>Days from creation date of opportunity to either today&#39;s date or, if Stage is set to a closed value, Close Date.</description>
+    <externalId>false</externalId>
+    <formula>IF(CONTAINS(Text(StageName),&quot;Closed&quot;), CloseDate - DATEVALUE(CreatedDate), TODAY() - DATEVALUE(CreatedDate))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>For opps that are either Closed Won or Closed Lost, this number is the time from the opp creation date to that close date. For opps that are still open, this is the time from the opp creation to TODAY().</inlineHelpText>
+    <label>Days Open</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

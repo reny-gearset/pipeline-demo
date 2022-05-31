@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Gearset_Team__c</fullName>
+    <description>The Gearset team that this user is active in</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The Gearset team that this user is active in</inlineHelpText>
+    <label>Gearset Team</label>
+    <referenceTo>Gearset_Team__c</referenceTo>
+    <relationshipLabel>Gearset users</relationshipLabel>
+    <relationshipName>Gearset_users</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>true</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

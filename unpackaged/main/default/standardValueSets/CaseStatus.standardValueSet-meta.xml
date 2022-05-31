@@ -8,9 +8,27 @@
         <closed>false</closed>
     </standardValue>
     <standardValue>
-        <fullName>Working</fullName>
+        <fullName>Submitted for Approval</fullName>
         <default>false</default>
-        <label>Working</label>
+        <label>Submitted for Approval</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Approved</fullName>
+        <default>false</default>
+        <label>Approved</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>In Progress</fullName>
+        <default>false</default>
+        <label>In Progress</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>More Information Required</fullName>
+        <default>false</default>
+        <label>More Information Required</label>
         <closed>false</closed>
     </standardValue>
     <standardValue>
@@ -20,9 +38,27 @@
         <closed>false</closed>
     </standardValue>
     <standardValue>
-        <fullName>Closed</fullName>
+        <fullName>Backlog</fullName>
         <default>false</default>
-        <label>Closed</label>
+        <label>Backlog</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Rejected - Function Exists</fullName>
+        <default>false</default>
+        <label>Rejected - Function Exists</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Rejected - Not Approved</fullName>
+        <default>false</default>
+        <label>Rejected - Not Approved</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Delivered</fullName>
+        <default>false</default>
+        <label>Delivered</label>
         <closed>true</closed>
     </standardValue>
 </StandardValueSet>

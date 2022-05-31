@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Team_license_reassignments_remaining__c</fullName>
+    <defaultValue>0</defaultValue>
+    <description>The number of license reassignments the team has remaining this month. This takes account of if a team has had their assignments reset (I.E. resetting a team&#39;s license assignments for the month will reset this field too).</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The number of license reassignments the team has remaining this month. This takes account of if a team has had their assignments reset (I.E. resetting a team&#39;s license assignments for the month will reset this field too).</inlineHelpText>
+    <label>Team license reassignments remaining</label>
+    <precision>5</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

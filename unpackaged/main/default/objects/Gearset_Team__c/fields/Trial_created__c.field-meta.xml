@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Trial_created__c</fullName>
+    <description>This is the date that the trial was created. This date will never change. Trial adjustments can be added which can either extend of reduce the effective trial length</description>
+    <externalId>false</externalId>
+    <inlineHelpText>This is the date that the trial was created. This date will never change. Trial adjustments can be added which can either extend of reduce the effective trial length</inlineHelpText>
+    <label>Trial created</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>DateTime</type>
+</CustomField>

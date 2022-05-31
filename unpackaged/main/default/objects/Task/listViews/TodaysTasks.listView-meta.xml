@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ListView xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>TodaysTasks</fullName>
     <columns>SUBJECT</columns>
@@ -26,5 +26,5 @@
         <operation>equals</operation>
         <value>TODAY,LAST_N_DAYS:30</value>
     </filters>
-    <label>ENCODED:{!FilterNames.z_TodaysTasks}</label>
+    <label>Today&#39;s Tasks</label>
 </ListView>

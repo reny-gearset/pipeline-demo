@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Gearset_user_layout</fullName>
+    <fields>Name</fields>
+    <fields>Email__c</fields>
+    <fields>Gearset_Team__c</fields>
+    <fields>LoginType__c</fields>
+    <fields>TeamRole__c</fields>
+    <label>Gearset user layout</label>
+</CompactLayout>
