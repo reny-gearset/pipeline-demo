@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Licenses_must_be_assigned_before_invoice</fullName>
-    <active>true</active>
-    <description>The licenses assigned checkbox must be ticked to show that the licenses have been assigned in the admin site prior to moving to the Closed Won stage.</description>
-    <errorConditionFormula>AND(RecordType.DeveloperName = &#39;Gearset_Renewals_Process&#39;,  LicensesAssigned__c  = FALSE,  TEXT(StageName)  = &#39;Closed Won&#39; )</errorConditionFormula>
-    <errorMessage>Confirm that licenses have been assigned.</errorMessage>
-</ValidationRule>

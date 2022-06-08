@@ -151,5 +151,5 @@
         <searchResultsAdditionalFields>UPDATEDBY_USER.ALIAS</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>INDIVIDUAL.LAST_UPDATE</searchResultsAdditionalFields>
     </searchLayouts>
-    <sharingModel>Private</sharingModel>
+    <sharingModel>ReadWrite</sharingModel>
 </CustomObject>
