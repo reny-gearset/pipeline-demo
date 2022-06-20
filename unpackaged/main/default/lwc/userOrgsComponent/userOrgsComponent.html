@@ -1,0 +1,14 @@
+<template>
+    <lightning-datatable
+        key-field="orgid"
+        data={data}
+        columns={columns}
+        sorted-by={sortedBy}
+        sorted-direction={sortedDirection}>
+    
+    </lightning-datatable>
+
+    <div if:true={errorMessage}>
+        {errorMessage}
+    </div>
+</template>

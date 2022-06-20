@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Payment__c</fullName>
+    <description>Field for AE to paste confirmation of payment. This can be the either the DocuSign envelope ID or the FastSpring ID.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Before winning the opportunity you need to provide one of the following: 
+- For invoices that have been paid please provide the order ID. For example: GEA123123-1231-12312
+- For customers who have agreed Net terms, please provide the Docusign envelope ID. Additionally make sure to fill in the payment information of the opportunity and set a task for a Sales Admin to follow up.
+https://www.notion.so/gearset/Opportunity-Win-conditions-01b3a911fb4b4e37a098a70f38b4a4e2</inlineHelpText>
+    <label>Payment</label>
+    <length>36</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

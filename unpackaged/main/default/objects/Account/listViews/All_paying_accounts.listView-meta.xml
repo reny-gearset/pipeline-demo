@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_paying_accounts</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>churn_risk__c</columns>
+    <columns>MRR__c</columns>
+    <columns>Gearset_Team__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Gearset_Team__c</field>
+        <operation>notEqual</operation>
+    </filters>
+    <label>All paying accounts</label>
+</ListView>

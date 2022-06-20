@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Team_active_org_prod_connections__c</fullName>
+    <description>This is the _total_ number of production org connections that is linked to a team. This isn&#39;t distinct production orgs, but could for example be each person in the team linking to the same org</description>
+    <externalId>false</externalId>
+    <inlineHelpText>This is the _total_ number of production org connections that is linked to a team. This isn&#39;t distinct production orgs, but could for example be each person in the team linking to the same org</inlineHelpText>
+    <label>Team active org prod connections</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

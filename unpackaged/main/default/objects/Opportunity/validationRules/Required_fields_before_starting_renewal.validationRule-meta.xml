@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Required_fields_before_starting_renewal</fullName>
+    <active>true</active>
+    <description>There are a bunch of fields that must be filled in manually (at least for now). Force these to be set before you can progress a renewal.</description>
+    <errorConditionFormula>AND(
+    $RecordType.DeveloperName = &#39;Gearset_Renewals_Process&#39;,
+    NOT(ISPICKVAL(StageName, &#39;Approaching Renewal&#39;)),
+    OR(
+        ISBLANK(Renewal_Date__c),
+        ISBLANK(Seats_at_renewal__c),
+        ISBLANK(MRR_at_renewal__c)
+    ),
+    CreatedDate &gt;=  DATETIMEVALUE(&quot;2020-11-06 00:00:00Z&quot;)
+)</errorConditionFormula>
+    <errorMessage>Must set renewal date, seats at renewal and mrr at renewal before you can progress this opportunity</errorMessage>
+</ValidationRule>

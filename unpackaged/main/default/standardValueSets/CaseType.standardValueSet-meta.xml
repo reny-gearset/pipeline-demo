@@ -2,28 +2,13 @@
 <StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
     <sorted>false</sorted>
     <standardValue>
-        <fullName>Mechanical</fullName>
+        <fullName>Problem</fullName>
         <default>false</default>
-        <label>Mechanical</label>
+        <label>Problem</label>
     </standardValue>
     <standardValue>
-        <fullName>Electrical</fullName>
+        <fullName>Feature Request</fullName>
         <default>false</default>
-        <label>Electrical</label>
-    </standardValue>
-    <standardValue>
-        <fullName>Electronic</fullName>
-        <default>false</default>
-        <label>Electronic</label>
-    </standardValue>
-    <standardValue>
-        <fullName>Structural</fullName>
-        <default>false</default>
-        <label>Structural</label>
-    </standardValue>
-    <standardValue>
-        <fullName>Other</fullName>
-        <default>false</default>
-        <label>Other</label>
+        <label>Feature Request</label>
     </standardValue>
 </StandardValueSet>

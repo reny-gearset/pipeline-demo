@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>check_payment_when_close</fullName>
+    <active>true</active>
+    <description>The Payment field is mandatory for an opp to enter the Close/Won stage</description>
+    <errorConditionFormula>AND(ISPICKVAL(StageName, &quot;Closed Won&quot;), ISBLANK( Payment__c ))</errorConditionFormula>
+    <errorDisplayField>Payment__c</errorDisplayField>
+    <errorMessage>The opportunity cannot enter Closed Won stage without a Payment field populated with a DocuSign envelope ID or the FastSpring ID</errorMessage>
+</ValidationRule>

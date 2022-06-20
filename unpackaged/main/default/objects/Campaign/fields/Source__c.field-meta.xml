@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Source__c</fullName>
+    <description>This is the source value that the website will send in the details collection form to link it to this campaign</description>
+    <externalId>false</externalId>
+    <inlineHelpText>This is the source value that the website will send in the details collection form to link it to this campaign</inlineHelpText>
+    <label>Source</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>backup-ebook</fullName>
+                <default>false</default>
+                <label>backup-ebook</label>
+            </value>
+            <value>
+                <fullName>newsletter</fullName>
+                <default>false</default>
+                <label>newsletter</label>
+            </value>
+            <value>
+                <fullName>devops-report-21</fullName>
+                <default>false</default>
+                <label>devops-report-21</label>
+            </value>
+            <value>
+                <fullName>devops-assessment</fullName>
+                <default>false</default>
+                <label>devops-assessment</label>
+            </value>
+            <value>
+                <fullName>devops-report-22</fullName>
+                <default>false</default>
+                <label>devops-report-22</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

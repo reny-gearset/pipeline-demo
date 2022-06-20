@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Email__c</fullName>
+    <description>The email of this user, as sourced from the authentication provider used to login. This is what they&#39;ve set it to in their Google Account, or Salesforce profile, or LinkedIn profile</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The email of this user, as sourced from the authentication provider used to login. This is what they&#39;ve set it to in their Google Account, or Salesforce profile, or LinkedIn profile</inlineHelpText>
+    <label>Email</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Email</type>
+    <unique>false</unique>
+</CustomField>
