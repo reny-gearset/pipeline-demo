@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Notify_if_logs_in__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>If this opportunity is marked as lost, and any user in this company logs in, then notify the opportunity owner.</description>
+    <externalId>false</externalId>
+    <label>Notify if logs in</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

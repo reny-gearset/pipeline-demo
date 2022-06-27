@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Gearset</fullName>
+        <default>true</default>
+        <label>Gearset</label>
+    </customValue>
+    <customValue>
+        <fullName>AutoRABIT</fullName>
+        <default>false</default>
+        <label>AutoRABIT</label>
+    </customValue>
+    <customValue>
+        <fullName>Copado</fullName>
+        <default>false</default>
+        <label>Copado</label>
+    </customValue>
+    <customValue>
+        <fullName>ClickDeploy</fullName>
+        <default>false</default>
+        <label>Copado Essentials (ClickDeploy)</label>
+    </customValue>
+    <customValue>
+        <fullName>Flosum</fullName>
+        <default>false</default>
+        <label>Flosum</label>
+    </customValue>
+    <customValue>
+        <fullName>Inhouse Custom</fullName>
+        <default>false</default>
+        <label>Inhouse Custom</label>
+    </customValue>
+    <customValue>
+        <fullName>OwnBackup</fullName>
+        <default>false</default>
+        <label>OwnBackup</label>
+    </customValue>
+    <customValue>
+        <fullName>Grax</fullName>
+        <default>false</default>
+        <label>Grax</label>
+    </customValue>
+    <customValue>
+        <fullName>Spanning</fullName>
+        <default>false</default>
+        <label>Spanning</label>
+    </customValue>
+    <customValue>
+        <fullName>Bluefactory.io</fullName>
+        <default>false</default>
+        <label>Bluefactory.io</label>
+    </customValue>
+    <customValue>
+        <fullName>Odaseva</fullName>
+        <default>false</default>
+        <label>Odaseva</label>
+    </customValue>
+    <customValue>
+        <fullName>Druva</fullName>
+        <default>false</default>
+        <label>Druva</label>
+    </customValue>
+    <customValue>
+        <fullName>BlueCanvas</fullName>
+        <default>false</default>
+        <label>BlueCanvas</label>
+    </customValue>
+    <customValue>
+        <fullName>Commvault</fullName>
+        <default>false</default>
+        <label>Commvault</label>
+    </customValue>
+    <customValue>
+        <fullName>Salesforce Backup</fullName>
+        <default>false</default>
+        <label>Salesforce Backup</label>
+    </customValue>
+    <customValue>
+        <fullName>CloudAlly</fullName>
+        <default>false</default>
+        <label>CloudAlly</label>
+    </customValue>
+    <customValue>
+        <fullName>AutoRabit Vault</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>AutoRabit Vault</label>
+    </customValue>
+    <customValue>
+        <fullName>Gearset Backup</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Gearset (Backup)</label>
+    </customValue>
+    <masterLabel>Competitors</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

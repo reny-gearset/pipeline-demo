@@ -2,80 +2,81 @@
 <StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
     <sorted>false</sorted>
     <standardValue>
-        <fullName>Prospecting</fullName>
+        <fullName>Discovery</fullName>
         <default>false</default>
-        <label>Prospecting</label>
+        <label>Discovery</label>
         <closed>false</closed>
         <forecastCategory>Pipeline</forecastCategory>
         <probability>10</probability>
         <won>false</won>
     </standardValue>
     <standardValue>
-        <fullName>Qualification</fullName>
+        <fullName>Solution Validating</fullName>
         <default>false</default>
-        <label>Qualification</label>
+        <label>Solution Validating</label>
         <closed>false</closed>
         <forecastCategory>Pipeline</forecastCategory>
-        <probability>10</probability>
+        <probability>35</probability>
         <won>false</won>
     </standardValue>
     <standardValue>
-        <fullName>Needs Analysis</fullName>
+        <fullName>Negotiations and Approvals</fullName>
         <default>false</default>
-        <label>Needs Analysis</label>
+        <label>Negotiations and Approvals</label>
         <closed>false</closed>
-        <forecastCategory>Pipeline</forecastCategory>
-        <probability>20</probability>
+        <forecastCategory>BestCase</forecastCategory>
+        <probability>75</probability>
         <won>false</won>
     </standardValue>
     <standardValue>
-        <fullName>Value Proposition</fullName>
+        <fullName>Procurement</fullName>
         <default>false</default>
-        <label>Value Proposition</label>
+        <label>Procurement</label>
+        <closed>false</closed>
+        <forecastCategory>Forecast</forecastCategory>
+        <probability>90</probability>
+        <won>false</won>
+    </standardValue>
+    <standardValue>
+        <fullName>Approaching Renewal</fullName>
+        <default>false</default>
+        <label>Approaching Renewal</label>
         <closed>false</closed>
         <forecastCategory>Pipeline</forecastCategory>
         <probability>50</probability>
         <won>false</won>
     </standardValue>
     <standardValue>
-        <fullName>Id. Decision Makers</fullName>
+        <fullName>Contacted for Renewal Opportunity</fullName>
         <default>false</default>
-        <label>Id. Decision Makers</label>
+        <label>Contacted for Renewal Opportunity</label>
         <closed>false</closed>
-        <forecastCategory>Pipeline</forecastCategory>
-        <probability>60</probability>
-        <won>false</won>
-    </standardValue>
-    <standardValue>
-        <fullName>Perception Analysis</fullName>
-        <default>false</default>
-        <label>Perception Analysis</label>
-        <closed>false</closed>
-        <forecastCategory>Pipeline</forecastCategory>
+        <forecastCategory>BestCase</forecastCategory>
         <probability>70</probability>
         <won>false</won>
     </standardValue>
     <standardValue>
-        <fullName>Proposal/Price Quote</fullName>
+        <fullName>Licensing Negotiation</fullName>
         <default>false</default>
-        <label>Proposal/Price Quote</label>
+        <label>Licensing Negotiation</label>
         <closed>false</closed>
-        <forecastCategory>Pipeline</forecastCategory>
-        <probability>75</probability>
+        <forecastCategory>BestCase</forecastCategory>
+        <probability>80</probability>
         <won>false</won>
     </standardValue>
     <standardValue>
-        <fullName>Negotiation/Review</fullName>
+        <fullName>Invoice Issued</fullName>
         <default>false</default>
-        <label>Negotiation/Review</label>
+        <label>Invoice Issued</label>
         <closed>false</closed>
-        <forecastCategory>Pipeline</forecastCategory>
-        <probability>90</probability>
+        <forecastCategory>Forecast</forecastCategory>
+        <probability>95</probability>
         <won>false</won>
     </standardValue>
     <standardValue>
         <fullName>Closed Won</fullName>
         <default>false</default>
+        <description>Sold!</description>
         <label>Closed Won</label>
         <closed>true</closed>
         <forecastCategory>Closed</forecastCategory>
@@ -85,6 +86,7 @@
     <standardValue>
         <fullName>Closed Lost</fullName>
         <default>false</default>
+        <description>No sale.</description>
         <label>Closed Lost</label>
         <closed>true</closed>
         <forecastCategory>Omitted</forecastCategory>

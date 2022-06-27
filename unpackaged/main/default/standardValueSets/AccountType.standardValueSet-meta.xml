@@ -2,38 +2,53 @@
 <StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
     <sorted>false</sorted>
     <standardValue>
-        <fullName>Prospect</fullName>
+        <fullName>Prospect - Implementation Partner</fullName>
         <default>false</default>
-        <label>Prospect</label>
+        <label>Prospect - Implementation Partner</label>
     </standardValue>
     <standardValue>
-        <fullName>Customer - Direct</fullName>
+        <fullName>Prospect - Standard Customer</fullName>
         <default>false</default>
-        <label>Customer - Direct</label>
+        <label>Prospect - Standard Customer</label>
     </standardValue>
     <standardValue>
-        <fullName>Customer - Channel</fullName>
+        <fullName>Implementation Partner</fullName>
         <default>false</default>
-        <label>Customer - Channel</label>
+        <label>Implementation Partner</label>
     </standardValue>
     <standardValue>
-        <fullName>Channel Partner / Reseller</fullName>
+        <fullName>Standard Customer</fullName>
         <default>false</default>
-        <label>Channel Partner / Reseller</label>
+        <label>Standard Customer</label>
     </standardValue>
     <standardValue>
-        <fullName>Installation Partner</fullName>
+        <fullName>Implementation Partner - Free</fullName>
         <default>false</default>
-        <label>Installation Partner</label>
+        <label>Implementation Partner - Free</label>
     </standardValue>
     <standardValue>
-        <fullName>Technology Partner</fullName>
+        <fullName>Salesforce</fullName>
         <default>false</default>
-        <label>Technology Partner</label>
+        <label>Salesforce</label>
     </standardValue>
     <standardValue>
-        <fullName>Other</fullName>
+        <fullName>Reseller</fullName>
         <default>false</default>
-        <label>Other</label>
+        <label>Reseller</label>
+    </standardValue>
+    <standardValue>
+        <fullName>MVP / Free license</fullName>
+        <default>false</default>
+        <label>MVP / Free license</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Competitor</fullName>
+        <default>false</default>
+        <label>Competitor</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Parent Account</fullName>
+        <default>false</default>
+        <label>Parent Account</label>
     </standardValue>
 </StandardValueSet>

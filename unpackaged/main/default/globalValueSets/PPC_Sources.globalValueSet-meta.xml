@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Google PPC</fullName>
+        <default>false</default>
+        <label>Google PPC</label>
+    </customValue>
+    <description>A list of PPC sources.</description>
+    <masterLabel>PPC Sources</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

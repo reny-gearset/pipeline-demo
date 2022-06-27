@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Billing_cycle__c</fullName>
+    <description>This is the billing cycle that the account is using. It&#39;s mixed if there are different subscriptions assigned to the team that have different cycles</description>
+    <externalId>false</externalId>
+    <inlineHelpText>This is the billing cycle that the account is using. It&#39;s mixed if there are different subscriptions assigned to the team that have different cycles</inlineHelpText>
+    <label>Billing cycle</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Monthly</fullName>
+                <default>false</default>
+                <label>Monthly</label>
+            </value>
+            <value>
+                <fullName>Quarterly</fullName>
+                <default>false</default>
+                <label>Quarterly</label>
+            </value>
+            <value>
+                <fullName>SemiAnnual</fullName>
+                <default>false</default>
+                <label>SemiAnnual</label>
+            </value>
+            <value>
+                <fullName>Annual</fullName>
+                <default>false</default>
+                <label>Annual</label>
+            </value>
+            <value>
+                <fullName>TwoYear</fullName>
+                <default>false</default>
+                <label>TwoYear</label>
+            </value>
+            <value>
+                <fullName>ThreeYear</fullName>
+                <default>false</default>
+                <label>ThreeYear</label>
+            </value>
+            <value>
+                <fullName>mixed</fullName>
+                <default>false</default>
+                <label>mixed</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

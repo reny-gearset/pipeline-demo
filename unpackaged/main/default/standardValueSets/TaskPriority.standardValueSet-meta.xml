@@ -13,10 +13,4 @@
         <label>Normal</label>
         <highPriority>false</highPriority>
     </standardValue>
-    <standardValue>
-        <fullName>Low</fullName>
-        <default>false</default>
-        <label>Low</label>
-        <highPriority>false</highPriority>
-    </standardValue>
 </StandardValueSet>
