@@ -7,7 +7,10 @@ Some hints:
  - run `sfdx config:set defaultusername=<username>` to get source pushing working
 
 yoyo-master
+dev-change
 s1 x
 y
 a master change
 new-change
+new-change-2
+staging-123
