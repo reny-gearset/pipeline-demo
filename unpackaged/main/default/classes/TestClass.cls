@@ -1,9 +1,9 @@
 @isTest
 public class TestClass {
-
-     // another new comment
+    // a new comment
     @isTest
     public static void testFoo() {
         System.assert(true);
+        /* this used to be false */ System.assert(false);// but may be changed later
     }
 }
