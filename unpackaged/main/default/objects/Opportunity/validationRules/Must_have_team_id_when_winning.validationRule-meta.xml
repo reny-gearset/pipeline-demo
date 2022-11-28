@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Must_have_team_id_when_winning</fullName>
+    <active>true</active>
+    <description>you must set a team ID when marking an opportunity as won</description>
+    <errorConditionFormula>ISPICKVAL(StageName, &#39;Closed Won&#39;) &amp;&amp; Account.Gearset_Team__c == &#39;&#39;</errorConditionFormula>
+    <errorMessage>Must fill in a Gearset team before marking the opportunity as won</errorMessage>
+</ValidationRule>

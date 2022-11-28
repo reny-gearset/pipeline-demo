@@ -2,27 +2,75 @@
 <StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
     <sorted>false</sorted>
     <standardValue>
-        <fullName>Open - Not Contacted</fullName>
+        <fullName>New</fullName>
+        <default>false</default>
+        <label>New</label>
+        <converted>false</converted>
+    </standardValue>
+    <standardValue>
+        <fullName>Ready for SDR</fullName>
+        <default>false</default>
+        <label>Ready for SDR</label>
+        <converted>false</converted>
+    </standardValue>
+    <standardValue>
+        <fullName>Researched</fullName>
+        <default>false</default>
+        <label>Researched</label>
+        <converted>false</converted>
+    </standardValue>
+    <standardValue>
+        <fullName>Customer Replied</fullName>
+        <default>false</default>
+        <label>Customer Replied</label>
+        <converted>false</converted>
+    </standardValue>
+    <standardValue>
+        <fullName>Discovery Call</fullName>
+        <default>false</default>
+        <label>Qualification Call</label>
+        <converted>false</converted>
+    </standardValue>
+    <standardValue>
+        <fullName>Nurture</fullName>
         <default>true</default>
-        <label>Open - Not Contacted</label>
+        <label>Nurture</label>
         <converted>false</converted>
     </standardValue>
     <standardValue>
-        <fullName>Working - Contacted</fullName>
+        <fullName>Please select converted status</fullName>
         <default>false</default>
-        <label>Working - Contacted</label>
-        <converted>false</converted>
-    </standardValue>
-    <standardValue>
-        <fullName>Closed - Converted</fullName>
-        <default>false</default>
-        <label>Closed - Converted</label>
+        <label>Please select converted status</label>
         <converted>true</converted>
     </standardValue>
     <standardValue>
-        <fullName>Closed - Not Converted</fullName>
+        <fullName>Demo Booked</fullName>
         <default>false</default>
-        <label>Closed - Not Converted</label>
+        <label>Demo Booked</label>
+        <converted>true</converted>
+    </standardValue>
+    <standardValue>
+        <fullName>Lost</fullName>
+        <default>false</default>
+        <label>Lost</label>
         <converted>false</converted>
+    </standardValue>
+    <standardValue>
+        <fullName>Existing Account</fullName>
+        <default>false</default>
+        <label>Existing Account</label>
+        <converted>true</converted>
+    </standardValue>
+    <standardValue>
+        <fullName>No Demo - Provided Enough Info</fullName>
+        <default>false</default>
+        <label>No Demo - Provided Enough Info</label>
+        <converted>true</converted>
+    </standardValue>
+    <standardValue>
+        <fullName>Qualified as Expansion Opportunity</fullName>
+        <default>false</default>
+        <label>Qualified as Expansion Opportunity</label>
+        <converted>true</converted>
     </standardValue>
 </StandardValueSet>

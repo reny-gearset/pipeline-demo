@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Price</fullName>
+        <default>false</default>
+        <label>Price</label>
+    </customValue>
+    <customValue>
+        <fullName>No Response</fullName>
+        <default>false</default>
+        <label>No Response</label>
+    </customValue>
+    <customValue>
+        <fullName>Competitor</fullName>
+        <default>false</default>
+        <label>Competitor</label>
+    </customValue>
+    <customValue>
+        <fullName>No valid use case</fullName>
+        <default>false</default>
+        <label>No valid use case</label>
+    </customValue>
+    <customValue>
+        <fullName>Legal / procurement blocked</fullName>
+        <default>false</default>
+        <label>Legal / procurement blocked</label>
+    </customValue>
+    <customValue>
+        <fullName>Errors</fullName>
+        <default>false</default>
+        <label>Errors</label>
+    </customValue>
+    <customValue>
+        <fullName>Features missing</fullName>
+        <default>false</default>
+        <label>Features missing</label>
+    </customValue>
+    <customValue>
+        <fullName>Trial solved need so no purchase</fullName>
+        <default>false</default>
+        <label>Trial solved need so no purchase</label>
+    </customValue>
+    <customValue>
+        <fullName>Free tier</fullName>
+        <default>false</default>
+        <label>Free tier</label>
+    </customValue>
+    <customValue>
+        <fullName>Churn</fullName>
+        <default>false</default>
+        <label>Churn</label>
+    </customValue>
+    <customValue>
+        <fullName>Not ready yet</fullName>
+        <default>false</default>
+        <label>Not ready yet</label>
+    </customValue>
+    <customValue>
+        <fullName>Coronavirus</fullName>
+        <default>false</default>
+        <label>Coronavirus</label>
+    </customValue>
+    <customValue>
+        <fullName>Region with low propensity to purchase</fullName>
+        <default>false</default>
+        <label>Region with low propensity to purchase</label>
+    </customValue>
+    <customValue>
+        <fullName>Other...</fullName>
+        <default>false</default>
+        <label>Other...</label>
+    </customValue>
+    <masterLabel>Lost Reason</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

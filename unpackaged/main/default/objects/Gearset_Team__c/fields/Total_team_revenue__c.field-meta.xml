@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_team_revenue__c</fullName>
+    <externalId>false</externalId>
+    <label>Total revenue</label>
+    <precision>18</precision>
+    <description>The total revenue that we count for this team across all their subscriptions. This number rolls up to the company MRR. This number can be wonky around renewal if there are multiple overlapping subscriptions with some about to finish and others to start</description>
+    <inlineHelpText>The total revenue that we count for this team across all their subscriptions. This number rolls up to the company MRR. This number can be wonky around renewal if there are multiple overlapping subscriptions with some about to finish and others to start</inlineHelpText>
+    <required>false</required>
+    <scale>2</scale>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

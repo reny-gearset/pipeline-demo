@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Backup</fullName>
+        <default>false</default>
+        <label>Backup</label>
+    </customValue>
+    <customValue>
+        <fullName>CICD</fullName>
+        <default>false</default>
+        <label>CICD</label>
+    </customValue>
+    <customValue>
+        <fullName>Compare and Deploy</fullName>
+        <default>false</default>
+        <label>Compare and Deploy</label>
+    </customValue>
+    <customValue>
+        <fullName>CPQ</fullName>
+        <default>false</default>
+        <label>CPQ</label>
+    </customValue>
+    <customValue>
+        <fullName>Data Archiving</fullName>
+        <default>false</default>
+        <label>Data Archiving</label>
+    </customValue>
+    <customValue>
+        <fullName>Data Deployment</fullName>
+        <default>false</default>
+        <label>Data Deployment</label>
+    </customValue>
+    <customValue>
+        <fullName>Environment Variables</fullName>
+        <default>false</default>
+        <label>Environment Variables</label>
+    </customValue>
+    <customValue>
+        <fullName>Jira Stories</fullName>
+        <default>false</default>
+        <label>Jira Stories</label>
+    </customValue>
+    <customValue>
+        <fullName>Layout Decomposition</fullName>
+        <default>false</default>
+        <label>Layout Decomposition</label>
+    </customValue>
+    <customValue>
+        <fullName>Merge Conflict Resolution</fullName>
+        <default>false</default>
+        <label>Merge Conflict Resolution</label>
+    </customValue>
+    <customValue>
+        <fullName>New CPQ Features</fullName>
+        <default>false</default>
+        <label>New CPQ Features</label>
+    </customValue>
+    <customValue>
+        <fullName>New Restore Flow</fullName>
+        <default>false</default>
+        <label>New Restore Flow</label>
+    </customValue>
+    <customValue>
+        <fullName>Onboarding Planning</fullName>
+        <default>false</default>
+        <label>Onboarding Planning</label>
+    </customValue>
+    <customValue>
+        <fullName>On-Prem/Firewall Restrictions</fullName>
+        <default>false</default>
+        <label>On-Prem/Firewall Restrictions</label>
+    </customValue>
+    <customValue>
+        <fullName>Pipelines</fullName>
+        <default>false</default>
+        <label>Pipelines</label>
+    </customValue>
+    <customValue>
+        <fullName>Project Planning</fullName>
+        <default>false</default>
+        <label>Project Planning</label>
+    </customValue>
+    <customValue>
+        <fullName>Team and Jobs Setup</fullName>
+        <default>false</default>
+        <label>Team and Jobs Setup</label>
+    </customValue>
+    <customValue>
+        <fullName>Vlocity</fullName>
+        <default>false</default>
+        <label>Vlocity</label>
+    </customValue>
+    <description>A list of Gearset specific subjects that may be discussed during a meeting.</description>
+    <masterLabel>Meeting Topics</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

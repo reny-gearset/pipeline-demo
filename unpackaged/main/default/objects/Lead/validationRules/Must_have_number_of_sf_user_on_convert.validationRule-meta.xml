@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Must_have_number_of_sf_user_on_convert</fullName>
+    <active>true</active>
+    <description>Number of Salesforce end users is required in when converting a lead.</description>
+    <errorConditionFormula>IsConverted &amp;&amp; (NumberOfSFUsers__c ==0 || ISBLANK(NumberOfSFUsers__c)) &amp;&amp; !ISPICKVAL(Status, &#39;Existing Account&#39;)</errorConditionFormula>
+    <errorDisplayField>NumberOfSFUsers__c</errorDisplayField>
+    <errorMessage>You need the Lead field [No. of Salesforce end users] populated and not be 0 to convert the lead, if you really cannot get this number, enter -1.</errorMessage>
+</ValidationRule>

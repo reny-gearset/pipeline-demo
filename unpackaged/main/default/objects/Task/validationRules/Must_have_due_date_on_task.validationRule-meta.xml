@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Must_have_due_date_on_task</fullName>
+    <active>true</active>
+    <description>We don&#39;t want tasks that don&#39;t have a due date set</description>
+    <errorConditionFormula>ISBLANK(ActivityDate)</errorConditionFormula>
+    <errorMessage>All tasks that you create must have a due date so we can keep leads and opportunities moving</errorMessage>
+</ValidationRule>

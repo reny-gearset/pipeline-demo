@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AE_Satisfaction__c</fullName>
+    <description>AE after the demo decides how satisfied with the notes, demo set up ect.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Please help the SDR understand how good the demo was and select a feedback rating.</inlineHelpText>
+    <label>AE Satisfaction</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Satisfaction_Scale</valueSetName>
+    </valueSet>
+</CustomField>
