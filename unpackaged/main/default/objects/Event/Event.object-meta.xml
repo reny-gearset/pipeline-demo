@@ -155,7 +155,7 @@
         <type>Default</type>
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
-    <enableFeeds>true</enableFeeds>
+    <enableFeeds>false</enableFeeds>
     <searchLayouts />
     <sharingModel>Private</sharingModel>
 </CustomObject>

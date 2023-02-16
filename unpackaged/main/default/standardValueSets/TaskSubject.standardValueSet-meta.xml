@@ -4,36 +4,26 @@
     <standardValue>
         <fullName>Call</fullName>
         <default>false</default>
-        <label>📞 Call</label>
-    </standardValue>
-    <standardValue>
-        <fullName>Send Quote</fullName>
-        <default>false</default>
-        <label>🕐 Send Quote</label>
-    </standardValue>
-    <standardValue>
-        <fullName>Other</fullName>
-        <default>false</default>
-        <label>🕐  Other</label>
+        <label>Call</label>
     </standardValue>
     <standardValue>
         <fullName>Email</fullName>
         <default>false</default>
-        <label>📬 Email</label>
+        <label>Email</label>
     </standardValue>
     <standardValue>
-        <fullName>MUST -</fullName>
+        <fullName>Send Letter</fullName>
         <default>false</default>
-        <label>MUST - 🕐</label>
+        <label>Send Letter</label>
     </standardValue>
     <standardValue>
-        <fullName>FU -</fullName>
+        <fullName>Send Quote</fullName>
         <default>false</default>
-        <label>FU - 🕐</label>
+        <label>Send Quote</label>
     </standardValue>
     <standardValue>
-        <fullName>REVISIT -</fullName>
+        <fullName>Other</fullName>
         <default>false</default>
-        <label>REVISIT - 🕐</label>
+        <label>Other</label>
     </standardValue>
 </StandardValueSet>

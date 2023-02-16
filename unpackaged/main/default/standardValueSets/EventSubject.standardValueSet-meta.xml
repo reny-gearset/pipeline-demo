@@ -26,44 +26,4 @@
         <default>false</default>
         <label>Other</label>
     </standardValue>
-    <standardValue>
-        <fullName>DEMO (Primary)</fullName>
-        <default>false</default>
-        <label>DEMO (Primary)</label>
-    </standardValue>
-    <standardValue>
-        <fullName>DEMO (FU)</fullName>
-        <default>false</default>
-        <label>DEMO (FU)</label>
-    </standardValue>
-    <standardValue>
-        <fullName>Discovery Call</fullName>
-        <default>false</default>
-        <label>Discovery Call</label>
-    </standardValue>
-    <standardValue>
-        <fullName>Intro Call</fullName>
-        <default>false</default>
-        <label>Intro Call</label>
-    </standardValue>
-    <standardValue>
-        <fullName>Webinar</fullName>
-        <default>false</default>
-        <label>Webinar</label>
-    </standardValue>
-    <standardValue>
-        <fullName>Tradeshow</fullName>
-        <default>false</default>
-        <label>Tradeshow</label>
-    </standardValue>
-    <standardValue>
-        <fullName>Qualifying Call</fullName>
-        <default>false</default>
-        <label>Qualifying Call</label>
-    </standardValue>
-    <standardValue>
-        <fullName>ABM</fullName>
-        <default>false</default>
-        <label>ABM</label>
-    </standardValue>
 </StandardValueSet>

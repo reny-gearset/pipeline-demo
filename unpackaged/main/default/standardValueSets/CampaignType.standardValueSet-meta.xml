@@ -2,14 +2,29 @@
 <StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
     <sorted>false</sorted>
     <standardValue>
-        <fullName>Event</fullName>
+        <fullName>Conference</fullName>
         <default>true</default>
-        <label>Event</label>
+        <label>Conference</label>
     </standardValue>
     <standardValue>
-        <fullName>Email</fullName>
+        <fullName>Webinar</fullName>
         <default>false</default>
-        <label>Email</label>
+        <label>Webinar</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Trade Show</fullName>
+        <default>false</default>
+        <label>Trade Show</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Public Relations</fullName>
+        <default>false</default>
+        <label>Public Relations</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Partners</fullName>
+        <default>false</default>
+        <label>Partners</label>
     </standardValue>
     <standardValue>
         <fullName>Referral Program</fullName>
@@ -17,38 +32,33 @@
         <label>Referral Program</label>
     </standardValue>
     <standardValue>
-        <fullName>Search</fullName>
+        <fullName>Advertisement</fullName>
         <default>false</default>
-        <label>Search</label>
+        <label>Advertisement</label>
     </standardValue>
     <standardValue>
-        <fullName>Social Media</fullName>
+        <fullName>Banner Ads</fullName>
         <default>false</default>
-        <label>Social Media</label>
+        <label>Banner Ads</label>
     </standardValue>
     <standardValue>
-        <fullName>Thought Leadership</fullName>
+        <fullName>Direct Mail</fullName>
         <default>false</default>
-        <label>Thought Leadership</label>
+        <label>Direct Mail</label>
     </standardValue>
     <standardValue>
-        <fullName>Website Direct</fullName>
+        <fullName>Email</fullName>
         <default>false</default>
-        <label>Website Direct</label>
+        <label>Email</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Telemarketing</fullName>
+        <default>false</default>
+        <label>Telemarketing</label>
     </standardValue>
     <standardValue>
         <fullName>Other</fullName>
         <default>false</default>
         <label>Other</label>
-    </standardValue>
-    <standardValue>
-        <fullName>Seminar / Conference</fullName>
-        <default>false</default>
-        <label>Seminar / Conference</label>
-    </standardValue>
-    <standardValue>
-        <fullName>Demo Signup / Trial</fullName>
-        <default>false</default>
-        <label>Demo Signup / Trial</label>
     </standardValue>
 </StandardValueSet>

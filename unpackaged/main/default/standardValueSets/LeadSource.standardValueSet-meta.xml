@@ -2,43 +2,33 @@
 <StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
     <sorted>false</sorted>
     <standardValue>
-        <fullName>Direct</fullName>
+        <fullName>Web</fullName>
         <default>false</default>
-        <label>Direct</label>
+        <label>Web</label>
     </standardValue>
     <standardValue>
-        <fullName>Prospecting into base</fullName>
+        <fullName>Phone Inquiry</fullName>
         <default>false</default>
-        <label>Prospecting into base</label>
+        <label>Phone Inquiry</label>
     </standardValue>
     <standardValue>
-        <fullName>Outbound</fullName>
+        <fullName>Partner Referral</fullName>
         <default>false</default>
-        <label>Outbound</label>
+        <label>Partner Referral</label>
     </standardValue>
     <standardValue>
-        <fullName>Event</fullName>
+        <fullName>Purchased List</fullName>
         <default>false</default>
-        <label>Event</label>
+        <label>Purchased List</label>
     </standardValue>
     <standardValue>
-        <fullName>Trialist</fullName>
+        <fullName>Other</fullName>
         <default>false</default>
-        <label>Trialist</label>
+        <label>Other</label>
     </standardValue>
     <standardValue>
-        <fullName>Joining team</fullName>
+        <fullName>DemoValueForMe</fullName>
         <default>false</default>
-        <label>Joining team</label>
-    </standardValue>
-    <standardValue>
-        <fullName>Partner</fullName>
-        <default>false</default>
-        <label>Partner</label>
-    </standardValue>
-    <standardValue>
-        <fullName>Content</fullName>
-        <default>false</default>
-        <label>Content</label>
+        <label>DemoValueForMe</label>
     </standardValue>
 </StandardValueSet>

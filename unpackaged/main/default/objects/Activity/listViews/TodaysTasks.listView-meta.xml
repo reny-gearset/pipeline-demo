@@ -3,19 +3,19 @@
     <fullName>TodaysTasks</fullName>
     <filterScope>Mine</filterScope>
     <filters>
-        <field>TASK.CLOSED</field>
-        <operation>equals</operation>
-        <value>0</value>
-    </filters>
-    <filters>
         <field>ACTIVITY.TASK</field>
         <operation>equals</operation>
         <value>1</value>
+    </filters>
+    <filters>
+        <field>TASK.CLOSED</field>
+        <operation>equals</operation>
+        <value>0</value>
     </filters>
     <filters>
         <field>TASK.DUE_DATE</field>
         <operation>lessThan</operation>
         <value>TOMORROW</value>
     </filters>
-    <label>Today&#39;s Tasks</label>
+    <label>Today&apos;s Tasks</label>
 </ListView>

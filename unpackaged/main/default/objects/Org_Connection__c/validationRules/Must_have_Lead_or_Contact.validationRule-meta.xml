@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Must_have_Lead_or_Contact</fullName>
-    <active>true</active>
-    <errorConditionFormula>ISNULL(Lead__c) &amp;&amp; ISNULL(Contact__c)</errorConditionFormula>
-    <errorMessage>Must have an associated lead or contact</errorMessage>
-</ValidationRule>
