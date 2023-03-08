@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Must_have_industry_set_to_progress</fullName>
-    <active>true</active>
-    <description>An account must have an industry set before the opportunity can be progressed to the &#39;Solution Validating&#39; stage.</description>
-    <errorConditionFormula>ISBLANK(TEXT(Account.Industry)) &amp;&amp; ISPICKVAL(StageName, &#39;Solution Validating&#39;)</errorConditionFormula>
-    <errorMessage>An industry must be set on the account before progressing!</errorMessage>
-</ValidationRule>

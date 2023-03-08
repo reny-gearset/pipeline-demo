@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Must_have_users_making_changes_convert</fullName>
-    <active>true</active>
-    <description>Number of users making changes to Salesforce is required when converting a lead</description>
-    <errorConditionFormula>IsConverted &amp;&amp; (No_of_people_making_changes_to_SF__c ==0 || ISBLANK(No_of_people_making_changes_to_SF__c)) &amp;&amp; !ISPICKVAL(Status, &#39;Existing Account&#39;)</errorConditionFormula>
-    <errorDisplayField>No_of_people_making_changes_to_SF__c</errorDisplayField>
-    <errorMessage>You need the Lead field [Number of people making changes to SF] populated and not be 0 to convert the lead, if you really cannot get this number, enter -1.</errorMessage>
-</ValidationRule>

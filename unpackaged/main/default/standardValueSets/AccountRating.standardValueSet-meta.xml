@@ -2,28 +2,18 @@
 <StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
     <sorted>false</sorted>
     <standardValue>
-        <fullName>Tier1</fullName>
+        <fullName>Hot</fullName>
         <default>false</default>
-        <label>Tier1</label>
+        <label>Hot</label>
     </standardValue>
     <standardValue>
-        <fullName>Tier2</fullName>
+        <fullName>Warm</fullName>
         <default>false</default>
-        <label>Tier2</label>
+        <label>Warm</label>
     </standardValue>
     <standardValue>
-        <fullName>Tier3</fullName>
+        <fullName>Cold</fullName>
         <default>false</default>
-        <label>Tier3</label>
-    </standardValue>
-    <standardValue>
-        <fullName>Tier4</fullName>
-        <default>false</default>
-        <label>Tier4</label>
-    </standardValue>
-    <standardValue>
-        <fullName>Tier5</fullName>
-        <default>false</default>
-        <label>Tier5</label>
+        <label>Cold</label>
     </standardValue>
 </StandardValueSet>

@@ -17,11 +17,6 @@
         <label>Other</label>
     </standardValue>
     <standardValue>
-        <fullName>Intercom Chat</fullName>
-        <default>false</default>
-        <label>Intercom Chat</label>
-    </standardValue>
-    <standardValue>
         <fullName>Email</fullName>
         <default>false</default>
         <label>Email</label>
